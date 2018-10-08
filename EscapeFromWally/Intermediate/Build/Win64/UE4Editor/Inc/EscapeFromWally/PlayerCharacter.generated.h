@@ -57,7 +57,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCharacter)
 
 
-#define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, FirstPersonCameraComponent); } \
+	FORCEINLINE static uint32 __PPO__MeshP() { return STRUCT_OFFSET(APlayerCharacter, MeshP); } \
+	FORCEINLINE static uint32 __PPO__FP_Torch() { return STRUCT_OFFSET(APlayerCharacter, FP_Torch); }
+
+
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_9_PROLOG
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

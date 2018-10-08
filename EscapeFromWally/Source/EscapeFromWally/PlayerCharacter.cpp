@@ -1,6 +1,7 @@
 // Thomas Simon
 
 #include "PlayerCharacter.h"
+#include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -19,7 +20,7 @@ APlayerCharacter::APlayerCharacter()
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
 	//Create a mesh component that will be used when being viewed from a 1st person view
-	MeshP = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
+	MeshP = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMeshP"));
 	MeshP->SetOnlyOwnerSee(true);
 	MeshP->SetupAttachment(FirstPersonCameraComponent);
 	MeshP->bCastDynamicShadow = false;
@@ -58,8 +59,8 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	//Move
-	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveVer);
-	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveHor);
+	PlayerInputComponent->BindAxis("MoveVer", this, &APlayerCharacter::MoveVer);
+	PlayerInputComponent->BindAxis("MoveHor", this, &APlayerCharacter::MoveHor);
 
 	//Rotate
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
