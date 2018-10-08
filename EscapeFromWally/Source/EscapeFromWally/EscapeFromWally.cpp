@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Thomas simon
 
 #include "EscapeFromWally.h"
 #include "Modules/ModuleManager.h"
