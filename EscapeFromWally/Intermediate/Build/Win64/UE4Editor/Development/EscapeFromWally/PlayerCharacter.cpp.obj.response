@@ -413,9 +413,9 @@
 /FI"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Source\EscapeFromWally\EscapeFromWally.cpp"
+"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Source\EscapeFromWally\PlayerCharacter.cpp"
 /FI"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Definitions.EscapeFromWally.h"
-/Fo"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\EscapeFromWally.cpp.obj"
+/Fo"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\PlayerCharacter.cpp.obj"
 /TP
 /GR-
 /W4

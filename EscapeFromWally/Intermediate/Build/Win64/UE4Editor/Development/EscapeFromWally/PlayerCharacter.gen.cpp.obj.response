@@ -14,7 +14,6 @@
 /Ob2
 /errorReport:prompt
 /EHsc
-/Z7
 /MD
 /bigobj
 /fp:fast
@@ -413,9 +412,9 @@
 /FI"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Source\EscapeFromWally\EscapeFromWally.cpp"
+"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Inc\EscapeFromWally\PlayerCharacter.gen.cpp"
 /FI"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Definitions.EscapeFromWally.h"
-/Fo"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\EscapeFromWally.cpp.obj"
+/Fo"C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\PlayerCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4
