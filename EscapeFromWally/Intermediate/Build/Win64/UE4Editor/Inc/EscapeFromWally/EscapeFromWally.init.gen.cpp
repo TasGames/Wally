@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeEscapeFromWally_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/EscapeFromWally",
 				PKG_CompiledIn | 0x00000000,
-				0x6FDE186B,
-				0x35F4F977,
+				0xAF435683,
+				0xA746554B,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
