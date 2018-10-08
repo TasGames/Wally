@@ -1,0 +1,3 @@
+C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Source\EscapeFromWally\EscapeFromWally.Build.cs
+C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Source\EscapeFromWally.Target.cs
+C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Source\EscapeFromWallyEditor.Target.cs
