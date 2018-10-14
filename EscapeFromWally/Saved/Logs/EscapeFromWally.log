@@ -1,0 +1,1493 @@
+﻿Log file open, 10/14/18 17:20:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: EscapeFromWally
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.548954
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.099s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.14-16.20.48:782][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.14-16.20.48:783][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.14-16.20.48:795][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.14-16.20.48:796][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.14-16.20.48:796][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.14-16.20.48:797][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2018.10.14-16.20.48:797][  0]LogInit: User: ThomasSimon
+[2018.10.14-16.20.48:797][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.14-16.20.48:797][  0]LogInit: High frequency timer resolution =3.234379 MHz
+[2018.10.14-16.20.48:798][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.14-16.20.48:798][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.14-16.20.48:798][  0]LogMemory: Process Physical Memory: 99.18 MB used, 99.18 MB peak
+[2018.10.14-16.20.48:798][  0]LogMemory: Process Virtual Memory: 82.75 MB used, 82.75 MB peak
+[2018.10.14-16.20.48:798][  0]LogMemory: Physical Memory: 5179.20 MB used,  11144.53 MB free, 16323.73 MB total
+[2018.10.14-16.20.48:798][  0]LogMemory: Virtual Memory: 4623.84 MB used,  11144.53 MB free, 134217728.00 MB total
+[2018.10.14-16.20.48:992][  0]LogInit: Using OS detected language (en-GB).
+[2018.10.14-16.20.48:992][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.14-16.20.48:994][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.10.14-16.20.49:390][  0]LogStreaming: Display: Took  0.396s to InitEngineTextLocalization.
+[2018.10.14-16.20.49:391][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.14-16.20.49:465][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.14-16.20.49:465][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.14-16.20.49:723][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.14-16.20.49:723][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.14-16.20.49:812][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.10.14-16.20.49:812][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.10.14-16.20.49:814][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.14-16.20.49:814][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.14-16.20.49:814][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.14-16.20.49:821][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.14-16.20.49:821][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.14-16.20.49:822][  0]LogWindows: EnumDisplayDevices:
+[2018.10.14-16.20.49:822][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.14-16.20.49:822][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.14-16.20.49:822][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.10.14-16.20.49:822][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.14-16.20.49:823][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.14-16.20.49:823][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.10.14-16.20.49:823][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.10.14-16.20.49:823][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.10.14-16.20.49:823][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.10.14-16.20.49:854][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.14-16.20.49:880][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.14-16.20.49:934][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Intermediate/Shaders/WorkingDirectory/19580/).
+[2018.10.14-16.20.49:934][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/97C318DD4F0506448A49A999779A9074/'.
+[2018.10.14-16.20.50:188][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.14-16.20.50:211][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.14-16.20.50:234][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.14-16.20.50:257][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.14-16.20.50:284][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.14-16.20.50:308][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.14-16.20.50:332][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.14-16.20.50:355][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.14-16.20.50:375][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.14-16.20.50:479][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.14-16.20.50:578][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.14-16.20.50:578][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.14-16.20.50:611][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.14-16.20.50:612][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.14-16.20.50:636][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.14-16.20.50:660][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.14-16.20.50:684][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.14-16.20.50:711][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.14-16.20.50:732][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.14-16.20.50:733][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.14-16.20.51:112][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.14-16.20.51:113][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.14-16.20.51:113][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.14-16.20.51:113][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.14-16.20.51:875][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.14-16.20.52:181][  0]LogDerivedDataCache: Loaded boot cache 0.31s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.14-16.20.52:181][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.14-16.20.52:181][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.14-16.20.52:181][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.14-16.20.52:181][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.14-16.20.52:181][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.14-16.20.52:199][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.14-16.20.52:213][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.14-16.20.52:213][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.14-16.20.52:213][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.14-16.20.52:231][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.14-16.20.52:238][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.14-16.20.52:242][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.14-16.20.52:543][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.10.14-16.20.52:923][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.14-16.20.53:286][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.14-16.20.53:337][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.14-16.20.53:337][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.14-16.20.53:337][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.14-16.20.53:337][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.14-16.20.53:379][  0]LogNetVersion: EscapeFromWally 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2411787198)
+[2018.10.14-16.20.54:147][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.149069 seconds
+[2018.10.14-16.20.54:156][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.14-16.20.54:156][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.14-16.20.54:156][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.14-16.20.58:099][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.14-16.20.58:127][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.14-16.20.58:566][  0]SourceControl: Source control is disabled
+[2018.10.14-16.20.58:566][  0]SourceControl: Source control is disabled
+[2018.10.14-16.20.58:617][  0]SourceControl: Source control is disabled
+[2018.10.14-16.20.58:631][  0]SourceControl: Source control is disabled
+[2018.10.14-16.20.59:349][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.14-16.20.59:489][  0]LogOcInput: OculusInput pre-init called
+[2018.10.14-16.20.59:632][  0]LogEngine: Initializing Engine...
+[2018.10.14-16.20.59:634][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.14-16.20.59:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.14-16.20.59:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.14-16.20.59:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.14-16.20.59:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.14-16.20.59:827][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.14-16.20.59:889][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.14-16.20.59:913][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.20.59:931][  0]LogInit: FAudioDevice initialized.
+[2018.10.14-16.20.59:931][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.14-16.21.00:008][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.14-16.21.00:015][  0]LogInit: Texture streaming: Enabled
+[2018.10.14-16.21.00:082][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.14-16.21.00:123][  0]LogInit: Transaction tracking system initialized
+[2018.10.14-16.21.00:266][  0]BlueprintLog: New page: Editor Load
+[2018.10.14-16.21.00:747][  0]LocalizationService: Localization service is disabled
+[2018.10.14-16.21.01:299][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.14-16.21.01:299][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/' took 0.01s
+[2018.10.14-16.21.01:300][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.14-16.21.01:300][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.14-16.21.01:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.14-16.21.01:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.14-16.21.01:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.14-16.21.01:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.14-16.21.01:917][  0]SourceControl: Source control is disabled
+[2018.10.14-16.21.01:918][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.14-16.21.01:918][  0]LightingResults: New page: Lighting Build
+[2018.10.14-16.21.01:933][  0]MapCheck: New page: Map Check
+[2018.10.14-16.21.01:933][  0]LightingResults: New page: Lighting Build
+[2018.10.14-16.21.02:074][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
+[2018.10.14-16.21.02:074][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap.
+[2018.10.14-16.21.02:074][  0]LoadErrors: Error: /Game/MyContent/Maps/Main : Can't find file for asset. /Game/MyContent/Maps/Main_BuiltData
+[2018.10.14-16.21.02:076][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
+[2018.10.14-16.21.02:076][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap.
+[2018.10.14-16.21.02:076][  0]LoadErrors: Error: /Game/MyContent/Maps/Main : Can't find file for asset. /Game/MyContent/Maps/Main_BuiltData
+[2018.10.14-16.21.02:082][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
+[2018.10.14-16.21.02:083][  0]LoadErrors: Failed to load /Game/MyContent/Maps/Main_BuiltData.Main_BuiltData Referenced by PersistentLevel
+[2018.10.14-16.21.02:083][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading NULL.
+[2018.10.14-16.21.02:083][  0]LoadErrors: Failed to load /Game/MyContent/Maps/Main_BuiltData.Main_BuiltData Referenced by PersistentLevel
+[2018.10.14-16.21.02:159][  0]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.21.02:180][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.14-16.21.02:206][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.14-16.21.02:256][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.521ms to complete.
+[2018.10.14-16.21.02:256][  0]LogFileHelpers: Loading map 'Main' took 0.338
+[2018.10.14-16.21.02:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.21.02:465][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.21.02:472][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.21.02:478][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.21.02:503][  0]LogCollectionManager: Loaded 0 collections in 0.001114 seconds
+[2018.10.14-16.21.02:596][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Collections/' took 0.01s
+[2018.10.14-16.21.02:597][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2018.10.14-16.21.02:597][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/Collections/' took 0.01s
+[2018.10.14-16.21.02:597][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.14-16.21.02:609][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2575 classes and 607 folders.
+[2018.10.14-16.21.02:631][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.14-16.21.02:822][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.14-16.21.02:871][  0]LogSlate: Took 0.002955 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.14-16.21.02:879][  0]LogSlate: Took 0.003079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.14-16.21.02:886][  0]LogSlate: Took 0.002941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.14-16.21.02:962][  0]LogRenderer: Reallocating scene render targets to support 1256x704 Format 10 NumSamples 1 (Frame:1).
+[2018.10.14-16.21.03:187][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.14-16.21.03:187][  0]LogLoad: (Engine Initialization) Total time: 16.79 seconds
+[2018.10.14-16.21.03:187][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.14-16.21.03:197][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.14-16.21.03:217][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.14-16.21.03:229][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.21.03:258][  0]LogSlate: Took 0.002890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.14-16.21.03:278][  1]LogAssetRegistry: Asset discovery search completed in 10.7594 seconds
+[2018.10.14-16.21.03:280][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.14-16.21.03:280][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2018.10.14-16.21.04:215][ 99]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.14-16.21.13:033][151]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Playercharacter.Bp_Playercharacter
+[2018.10.14-16.21.13:492][151]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.10.14-16.21.18:627][650]LogSlate: Window 'Bp_Playercharacter' being destroyed
+[2018.10.14-16.21.24:043][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.21.36:138][736]MapCheck: New page: Map Check
+[2018.10.14-16.21.36:165][736]LightingResults: New page: Lighting Build - 14 Oct 2018 18:21:36
+[2018.10.14-16.21.36:219][736]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.14-16.21.36:277][736]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.14-16.21.36:290][736]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.14-16.21.36:812][736]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.14-16.21.36:812][736]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19580
+[2018.10.14-16.21.41:707][736]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.10.14-16.21.41:709][736]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.14-16.21.41:709][736]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.14-16.21.41:709][736]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.14-16.21.41:709][736]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.14-16.21.41:709][736]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.14-16.21.41:886][736]LogEditorBuildUtils: Build time 0:05
+[2018.10.14-16.21.41:893][736]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.10.14-16.21.41:905][736]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.10.14-16.21.41:913][736]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.14-16.21.41:920][737]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.10.14-16.21.41:927][737]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.10.14-16.21.41:938][737]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.14-16.21.41:954][738]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.10.14-16.21.41:961][738]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.14-16.21.41:961][738]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.10.14-16.21.43:398][739]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.14-16.21.44:753][811]Job is a success!
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2018.10.14-16.21.44:808][812]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2018.10.14-16.21.44:845][812]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.10.14-16.21.44:845][812]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.10.14-16.21.44:845][812]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.10.14-16.21.44:846][812]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.10.14-16.21.44:846][812]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.10.14-16.21.44:846][812]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2018.10.14-16.21.44:875][812]Lightmass on DESKTOP-C6U4EA4: 659 ms total, 106 ms importing, 7 ms setup, 157 ms photons, 306 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.19 sec total, 141 ms processing.
+[2018.10.14-16.21.44:912][812]LogStaticLightingSystem: Illumination: 8.73 sec (19 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2018.10.14-16.21.44:913][812]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.10.14-16.21.44:913][812]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.10.14-16.21.45:709][812]DumpUnbuiltLightIteractions
+[2018.10.14-16.21.45:710][812]Lights with unbuilt interactions: 0
+[2018.10.14-16.21.45:710][812]
+[2018.10.14-16.21.45:710][812]Primitives with unbuilt interactions: 0
+[2018.10.14-16.21.45:779][813]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.14-16.21.45:779][813]MapCheck: New page: Main - 14 Oct 2018 18:21:45
+[2018.10.14-16.21.45:830][813]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.523ms to complete.
+[2018.10.14-16.21.56:646][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.21.56:737][118]LogSlate: Window 'Message Log' being destroyed
+[2018.10.14-16.21.56:739][118]LogSlate: Window 'Message Log' being destroyed
+[2018.10.14-16.21.58:645][347]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.21.58:658][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.21.58:671][347]PIE: New page: PIE session: Main (14 Oct 2018 18:21:58)
+[2018.10.14-16.21.58:671][347]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.21.58:674][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003115s)
+[2018.10.14-16.21.58:675][347]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.21.58:676][347]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2018.10.14-16.21.58:676][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.004416s)
+[2018.10.14-16.21.58:709][347]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.21.58:719][347]LogInit: FAudioDevice initialized.
+[2018.10.14-16.21.58:770][347]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.21.58:772][347]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.21.58
+[2018.10.14-16.21.58:772][347]LogWorld: Bringing up level for play took: 0.000588
+[2018.10.14-16.21.58:797][347]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.14-16.21.58:799][347]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.649
+[2018.10.14-16.22.11:098][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.22.11:129][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.22.11:159][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.22.11:202][817]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.14-16.22.20:720][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.22.26:472][860]LogAssetEditorManager: Opening Asset editor for Class /Script/EscapeFromWally.PlayerCharacter
+[2018.10.14-16.23.42:222][307]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.23.42:234][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.23.42:234][307]PIE: New page: PIE session: Main (14 Oct 2018 18:23:42)
+[2018.10.14-16.23.42:234][307]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.23.42:236][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001871s)
+[2018.10.14-16.23.42:237][307]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.23.42:237][307]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2018.10.14-16.23.42:237][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003046s)
+[2018.10.14-16.23.42:271][307]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.23.42:280][307]LogInit: FAudioDevice initialized.
+[2018.10.14-16.23.42:315][307]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.23.42:316][307]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.23.42
+[2018.10.14-16.23.42:316][307]LogWorld: Bringing up level for play took: 0.000735
+[2018.10.14-16.23.42:329][307]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.178
+[2018.10.14-16.24.04:114][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.24.04:145][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.24.04:174][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.24.04:214][897]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.14-16.26.48:591][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.26.48:737][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-16.26.48:789][ 64]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainE2A93BCA41BC4C8375FB55A70C63C399.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-16.26.48:809][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-16.26.48:820][ 64]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltDataD36A1BDD42B2ED25BD4CD481F1304EF7.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-16.26.50:497][264]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.26.50:507][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.26.50:507][264]PIE: New page: PIE session: Main (14 Oct 2018 18:26:50)
+[2018.10.14-16.26.50:507][264]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.26.50:509][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001715s)
+[2018.10.14-16.26.50:510][264]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.26.50:510][264]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2018.10.14-16.26.50:510][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.002791s)
+[2018.10.14-16.26.50:538][264]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.26.50:545][264]LogInit: FAudioDevice initialized.
+[2018.10.14-16.26.50:576][264]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.26.50:577][264]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.26.50
+[2018.10.14-16.26.50:577][264]LogWorld: Bringing up level for play took: 0.000506
+[2018.10.14-16.26.50:590][264]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.439
+[2018.10.14-16.26.58:757][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.26.58:792][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.26.58:824][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.26.58:863][244]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.14-16.27.36:264][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.28.25:975][ 59]LogAssetEditorManager: Opening Asset editor for Class /Script/EscapeFromWally.PlayerCharacter
+[2018.10.14-16.29.20:783][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.29.26:112][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.29.26:879][306]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.29.26:895][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.29.26:895][306]PIE: New page: PIE session: Main (14 Oct 2018 18:29:26)
+[2018.10.14-16.29.26:895][306]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.29.26:897][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001997s)
+[2018.10.14-16.29.26:898][306]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.29.26:898][306]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2018.10.14-16.29.26:898][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.002967s)
+[2018.10.14-16.29.26:934][306]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.29.26:944][306]LogInit: FAudioDevice initialized.
+[2018.10.14-16.29.26:977][306]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.29.26:977][306]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.29.26
+[2018.10.14-16.29.26:978][306]LogWorld: Bringing up level for play took: 0.000507
+[2018.10.14-16.29.26:990][306]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.839
+[2018.10.14-16.29.46:656][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.29.46:692][656]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.29.46:722][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.29.46:759][658]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.14-16.29.50:523][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.29.54:165][529]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.29.54:846][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.29.55:454][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.30.23:632][ 20]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-16.30.27:274][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.30.42:233][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.31.07:186][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.31.13:012][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.31.29:189][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.31.32:094][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.31.49:446][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.31.52:720][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.31.57:746][151]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-16.32.04:498][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.14-16.32.09:354][484]Cmd: DELETE
+[2018.10.14-16.32.09:354][484]Cmd: ACTOR DELETE
+[2018.10.14-16.32.09:360][484]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.14-16.32.09:390][484]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.10.14-16.32.22:804][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.32.22:904][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.32.22:914][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.32.22:914][ 17]PIE: New page: PIE session: Main (14 Oct 2018 18:32:22)
+[2018.10.14-16.32.22:914][ 17]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.32.22:917][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002835s)
+[2018.10.14-16.32.22:918][ 17]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.32.22:918][ 17]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2018.10.14-16.32.22:918][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003965s)
+[2018.10.14-16.32.22:951][ 17]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.32.22:961][ 17]LogInit: FAudioDevice initialized.
+[2018.10.14-16.32.22:990][ 17]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.32.22:991][ 17]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.32.22
+[2018.10.14-16.32.22:991][ 17]LogWorld: Bringing up level for play took: 0.000639
+[2018.10.14-16.32.23:007][ 17]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.856
+[2018.10.14-16.32.31:609][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.32.31:643][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.32.31:672][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.32.31:710][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.14-16.32.44:015][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.33.23:108][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.33.31:070][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.33.36:377][728]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.33.36:389][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.33.36:389][728]PIE: New page: PIE session: Main (14 Oct 2018 18:33:36)
+[2018.10.14-16.33.36:389][728]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.33.36:392][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002737s)
+[2018.10.14-16.33.36:392][728]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.33.36:392][728]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.10.14-16.33.36:392][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003492s)
+[2018.10.14-16.33.36:422][728]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.33.36:430][728]LogInit: FAudioDevice initialized.
+[2018.10.14-16.33.36:462][728]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.33.36:463][728]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.33.36
+[2018.10.14-16.33.36:463][728]LogWorld: Bringing up level for play took: 0.000627
+[2018.10.14-16.33.36:476][728]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.325
+[2018.10.14-16.33.41:650][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.33.41:683][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.33.41:711][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.33.41:753][351]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.14-16.33.56:051][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.33.57:178][186]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-16.34.45:832][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.34.58:156][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.35.52:607][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.36.10:973][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.36.11:049][824]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.36.11:061][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.36.11:061][824]PIE: New page: PIE session: Main (14 Oct 2018 18:36:11)
+[2018.10.14-16.36.11:061][824]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.36.11:064][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003046s)
+[2018.10.14-16.36.11:065][824]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.36.11:065][824]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2018.10.14-16.36.11:065][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003874s)
+[2018.10.14-16.36.11:099][824]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.36.11:109][824]LogInit: FAudioDevice initialized.
+[2018.10.14-16.36.11:138][824]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.36.11:139][824]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.36.11
+[2018.10.14-16.36.11:139][824]LogWorld: Bringing up level for play took: 0.000606
+[2018.10.14-16.36.11:152][824]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 1.001
+[2018.10.14-16.36.17:318][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.36.17:352][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.36.17:382][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.36.17:422][566]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.14-16.36.32:453][356]Cmd: EDIT COPY
+[2018.10.14-16.36.33:107][434]Cmd: EDIT PASTE
+[2018.10.14-16.37.15:224][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.37.16:344][483]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-16.37.30:001][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.38.17:591][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.39.10:215][ 55]Cmd: EDIT COPY
+[2018.10.14-16.39.11:149][166]Cmd: EDIT PASTE
+[2018.10.14-16.39.27:056][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.39.27:061][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-16.39.27:179][ 11]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main6BDFFA694A7E5D1F4882359828752790.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-16.39.27:198][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-16.39.27:210][ 11]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltDataE7A3E4A54FA672E2F7D6BFA04A0519EF.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-16.39.41:625][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.39.41:711][677]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.39.41:722][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.39.41:722][677]PIE: New page: PIE session: Main (14 Oct 2018 18:39:41)
+[2018.10.14-16.39.41:722][677]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.39.41:725][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003262s)
+[2018.10.14-16.39.41:725][677]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.39.41:725][677]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.10.14-16.39.41:725][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.004107s)
+[2018.10.14-16.39.41:762][677]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.39.41:773][677]LogInit: FAudioDevice initialized.
+[2018.10.14-16.39.41:805][677]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.39.41:807][677]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.39.41
+[2018.10.14-16.39.41:807][677]LogWorld: Bringing up level for play took: 0.000641
+[2018.10.14-16.39.41:820][677]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.33
+[2018.10.14-16.39.52:451][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.39.52:482][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.39.52:512][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.39.52:558][954]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.14-16.40.14:255][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.41.09:721][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.41.53:975][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.42.30:967][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.43.04:450][394]Cmd: SELECT NONE
+[2018.10.14-16.43.19:523][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.43.20:796][320]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-16.43.23:541][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.43.33:973][870]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2018.10.14-16.43.52:467][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.44.20:079][273]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.44.25:669][933]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.44.31:130][568]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.44.55:148][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.45.14:283][650]Cmd: EDIT COPY
+[2018.10.14-16.45.15:106][748]Cmd: EDIT PASTE
+[2018.10.14-16.45.42:449][948]Cmd: EDIT COPY
+[2018.10.14-16.45.43:073][ 22]Cmd: EDIT PASTE
+[2018.10.14-16.45.56:665][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.46.00:958][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.46.16:303][977]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-16.46.16:711][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.46.44:840][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.46.57:916][859]Cmd: EDIT COPY
+[2018.10.14-16.46.58:313][906]Cmd: EDIT PASTE
+[2018.10.14-16.47.00:430][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.47.14:882][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.47.23:311][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.47.33:082][955]Cmd: SELECT NONE
+[2018.10.14-16.47.52:466][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.47.53:604][363]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-16.47.55:917][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.48.01:482][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.48.13:590][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.48.33:347][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.48.39:767][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.48.52:045][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.49.02:890][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.49.02:949][560]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.49.02:960][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.49.02:961][560]PIE: New page: PIE session: Main (14 Oct 2018 18:49:02)
+[2018.10.14-16.49.02:961][560]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.49.02:966][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004990s)
+[2018.10.14-16.49.02:966][560]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.49.02:967][560]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.10.14-16.49.02:967][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005930s)
+[2018.10.14-16.49.03:002][560]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.49.03:014][560]LogInit: FAudioDevice initialized.
+[2018.10.14-16.49.03:049][560]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.49.03:050][560]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.49.03
+[2018.10.14-16.49.03:050][560]LogWorld: Bringing up level for play took: 0.000689
+[2018.10.14-16.49.03:063][560]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.912
+[2018.10.14-16.49.06:766][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.49.06:803][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.49.06:832][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.49.06:872][  6]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.14-16.49.10:342][408]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.49.16:619][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.49.29:615][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.49.56:807][880]Cmd: EDIT COPY
+[2018.10.14-16.49.57:106][915]Cmd: EDIT PASTE
+[2018.10.14-16.50.23:628][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.51.09:898][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.51.09:997][464]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-16.51.10:009][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-16.51.10:009][464]PIE: New page: PIE session: Main (14 Oct 2018 18:51:10)
+[2018.10.14-16.51.10:010][464]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-16.51.10:016][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006705s)
+[2018.10.14-16.51.10:017][464]LogAIModule: Creating AISystem for world Main
+[2018.10.14-16.51.10:017][464]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.10.14-16.51.10:017][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.007516s)
+[2018.10.14-16.51.10:046][464]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-16.51.10:057][464]LogInit: FAudioDevice initialized.
+[2018.10.14-16.51.10:086][464]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-16.51.10:087][464]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-17.51.10
+[2018.10.14-16.51.10:087][464]LogWorld: Bringing up level for play took: 0.000842
+[2018.10.14-16.51.10:100][464]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.051
+[2018.10.14-16.51.20:059][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.51.20:094][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-16.51.20:124][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-16.51.20:161][656]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.14-16.51.24:876][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.51.32:375][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.52.06:360][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.53.11:373][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.53.14:015][ 92]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-16.53.22:932][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.53.52:024][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.54.28:968][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.54.44:548][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.54.50:186][355]Cmd: EDIT COPY
+[2018.10.14-16.54.50:793][427]Cmd: EDIT PASTE
+[2018.10.14-16.55.12:879][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.55.30:707][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.55.50:476][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.56.07:736][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.56.12:447][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-16.56.15:595][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.56.39:543][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.56.52:853][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.57.07:319][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.57.19:832][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.57.45:923][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.58.52:498][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-16.58.58:444][ 62]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.00.03:497][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.00.11:911][642]Cmd: TRANSACTION UNDO
+[2018.10.14-17.00.11:911][642]LogEditorTransaction: Undo Move Actors
+[2018.10.14-17.00.11:919][642]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.Wall2.BrushComponent0) Component already registered.
+[2018.10.14-17.00.11:921][642]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2018.10.14-17.00.12:240][675]Cmd: TRANSACTION UNDO
+[2018.10.14-17.00.12:240][675]LogEditorTransaction: Undo Edit Z
+[2018.10.14-17.00.12:249][675]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.Floor.BrushComponent0) Component already registered.
+[2018.10.14-17.00.12:250][675]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.10.14-17.00.13:642][836]Cmd: SELECT NONE
+[2018.10.14-17.00.43:342][363]Cmd: EDIT COPY
+[2018.10.14-17.00.43:959][436]Cmd: EDIT PASTE
+[2018.10.14-17.00.47:920][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.01.24:952][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.01.41:730][ 85]Cmd: SELECT NONE
+[2018.10.14-17.02.02:568][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.02.21:717][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.02.27:611][489]Cmd: SELECT NONE
+[2018.10.14-17.02.32:492][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.02.38:492][770]Cmd: SELECT NONE
+[2018.10.14-17.03.08:063][285]Cmd: EDIT COPY
+[2018.10.14-17.03.08:969][393]Cmd: EDIT PASTE
+[2018.10.14-17.03.24:068][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.03.34:514][328]Cmd: SELECT NONE
+[2018.10.14-17.03.52:879][482]Cmd: EDIT COPY
+[2018.10.14-17.03.53:453][550]Cmd: EDIT PASTE
+[2018.10.14-17.04.14:641][ 39]Cmd: EDIT COPY
+[2018.10.14-17.04.15:224][108]Cmd: EDIT PASTE
+[2018.10.14-17.04.23:808][119]Cmd: EDIT COPY
+[2018.10.14-17.04.24:078][151]Cmd: EDIT PASTE
+[2018.10.14-17.04.34:800][413]Cmd: SELECT NONE
+[2018.10.14-17.04.43:576][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.04.43:637][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-17.04.43:919][456]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main7AA4A96543A909D96BEAEBB1E259D743.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-17.04.43:949][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-17.04.43:966][456]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltDataA634792A478B0EFEF41CCF98448E4482.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-17.05.12:271][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.05.12:337][826]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.05.12:348][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.05.12:348][826]PIE: New page: PIE session: Main (14 Oct 2018 19:05:12)
+[2018.10.14-17.05.12:348][826]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.05.12:358][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009449s)
+[2018.10.14-17.05.12:358][826]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.05.12:359][826]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.10.14-17.05.12:359][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.010352s)
+[2018.10.14-17.05.12:395][826]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.05.12:407][826]LogInit: FAudioDevice initialized.
+[2018.10.14-17.05.12:442][826]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.05.12:444][826]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.05.12
+[2018.10.14-17.05.12:444][826]LogWorld: Bringing up level for play took: 0.000954
+[2018.10.14-17.05.12:457][826]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.306
+[2018.10.14-17.05.37:599][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.05.37:636][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.05.37:666][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.05.37:700][838]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.14-17.06.22:941][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.07.02:799][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.07.02:881][818]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.07.02:893][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.07.02:894][818]PIE: New page: PIE session: Main (14 Oct 2018 19:07:02)
+[2018.10.14-17.07.02:894][818]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.07.02:903][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009601s)
+[2018.10.14-17.07.02:904][818]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.07.02:904][818]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2018.10.14-17.07.02:904][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.010491s)
+[2018.10.14-17.07.02:934][818]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.07.02:944][818]LogInit: FAudioDevice initialized.
+[2018.10.14-17.07.02:975][818]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.07.02:976][818]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.07.02
+[2018.10.14-17.07.02:977][818]LogWorld: Bringing up level for play took: 0.000878
+[2018.10.14-17.07.02:989][818]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.839
+[2018.10.14-17.07.10:255][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.07.10:286][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.07.10:316][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.07.10:354][692]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.14-17.07.29:154][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.08.09:290][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.08.09:357][440]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.08.09:369][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.08.09:369][440]PIE: New page: PIE session: Main (14 Oct 2018 19:08:09)
+[2018.10.14-17.08.09:369][440]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.08.09:379][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009689s)
+[2018.10.14-17.08.09:379][440]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.08.09:380][440]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2018.10.14-17.08.09:380][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.010613s)
+[2018.10.14-17.08.09:414][440]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.08.09:426][440]LogInit: FAudioDevice initialized.
+[2018.10.14-17.08.09:459][440]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.08.09:460][440]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.08.09
+[2018.10.14-17.08.09:460][440]LogWorld: Bringing up level for play took: 0.001031
+[2018.10.14-17.08.09:472][440]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.678
+[2018.10.14-17.08.36:925][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.08.36:958][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.08.36:986][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.08.37:027][728]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.14-17.08.38:943][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.08.39:030][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-17.08.39:143][964]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainA03CF8BB4407692C5264B88B45CC7531.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-17.08.39:164][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-17.08.39:175][964]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData0BEFE01746DF632552A9D0B42E5055FC.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-17.09.45:982][631]Cmd: EDIT COPY
+[2018.10.14-17.09.46:845][733]Cmd: EDIT PASTE
+[2018.10.14-17.09.54:126][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.10.03:819][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.10.06:634][  5]Cmd: TRANSACTION UNDO
+[2018.10.14-17.10.06:634][  5]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.14-17.10.07:610][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.10.58:603][109]Cmd: SELECT NONE
+[2018.10.14-17.11.00:900][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.11.00:975][378]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.11.00:986][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.11.00:986][378]PIE: New page: PIE session: Main (14 Oct 2018 19:11:00)
+[2018.10.14-17.11.00:986][378]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.11.01:000][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014234s)
+[2018.10.14-17.11.01:001][378]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.11.01:001][378]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.10.14-17.11.01:001][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015217s)
+[2018.10.14-17.11.01:035][378]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.11.01:046][378]LogInit: FAudioDevice initialized.
+[2018.10.14-17.11.01:081][378]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.11.01:083][378]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.11.01
+[2018.10.14-17.11.01:083][378]LogWorld: Bringing up level for play took: 0.001097
+[2018.10.14-17.11.01:096][378]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.945
+[2018.10.14-17.11.07:976][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.11.08:007][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.11.08:035][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.11.08:076][204]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.14-17.11.23:873][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.11.54:461][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.13.35:227][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.14.15:248][986]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.14.17:107][204]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.14.17:157][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.14.37:236][478]Cmd: SELECT NONE
+[2018.10.14-17.14.56:926][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.15.35:235][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.16.04:714][650]Cmd: SELECT NONE
+[2018.10.14-17.16.14:756][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.16.14:830][861]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.16.14:842][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.16.14:843][861]PIE: New page: PIE session: Main (14 Oct 2018 19:16:14)
+[2018.10.14-17.16.14:843][861]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.16.14:857][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013846s)
+[2018.10.14-17.16.14:857][861]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.16.14:857][861]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.10.14-17.16.14:857][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.014704s)
+[2018.10.14-17.16.14:895][861]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.16.14:904][861]LogInit: FAudioDevice initialized.
+[2018.10.14-17.16.14:934][861]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.16.14:936][861]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.16.14
+[2018.10.14-17.16.14:936][861]LogWorld: Bringing up level for play took: 0.001235
+[2018.10.14-17.16.14:949][861]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.798
+[2018.10.14-17.16.22:773][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.16.22:807][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.16.22:839][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.16.22:879][802]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.14-17.18.54:692][130]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_Auto180CC15254B9F110584EB239A2EECDDDD.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Autosaves/Game/MyContent/Maps/Main_Auto1.umap'
+[2018.10.14-17.18.54:698][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.192
+[2018.10.14-17.18.54:698][130]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.192
+[2018.10.14-17.24.41:387][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.25.53:493][252]Cmd: EDIT COPY
+[2018.10.14-17.25.54:437][363]Cmd: EDIT PASTE
+[2018.10.14-17.26.40:330][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.26.52:890][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.27.22:902][680]Cmd: EDIT COPY
+[2018.10.14-17.27.23:290][726]Cmd: EDIT PASTE
+[2018.10.14-17.27.35:614][128]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.27.35:715][136]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.10.14-17.28.22:594][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.28.23:435][792]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-17.28.27:487][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.28.50:571][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.29.02:468][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.29.20:468][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.29.20:551][357]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.29.20:564][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.29.20:564][357]PIE: New page: PIE session: Main (14 Oct 2018 19:29:20)
+[2018.10.14-17.29.20:564][357]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.29.20:578][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014555s)
+[2018.10.14-17.29.20:579][357]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.29.20:579][357]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2018.10.14-17.29.20:580][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015624s)
+[2018.10.14-17.29.20:615][357]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.29.20:624][357]LogInit: FAudioDevice initialized.
+[2018.10.14-17.29.20:655][357]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.29.20:657][357]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.29.20
+[2018.10.14-17.29.20:657][357]LogWorld: Bringing up level for play took: 0.001133
+[2018.10.14-17.29.20:670][357]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.519
+[2018.10.14-17.29.48:528][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.29.48:566][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.29.48:596][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.29.48:628][695]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.14-17.30.09:862][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.31.09:234][ 19]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.31.10:844][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.31.14:725][660]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.32.26:981][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.32.39:135][326]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.32.39:340][326]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_Auto2A85D27C742F48546F26BB3BED5AAFBA4.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Autosaves/Game/MyContent/Maps/Main_Auto2.umap'
+[2018.10.14-17.32.39:346][326]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.201
+[2018.10.14-17.32.39:346][326]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.201
+[2018.10.14-17.33.10:965][954]LogEditorViewport: Clicking on Actor (context menu): Brush (Wall5)
+[2018.10.14-17.33.11:000][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.33.37:503][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.34.07:780][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.34.49:412][454]Cmd: EDIT COPY
+[2018.10.14-17.34.49:763][496]Cmd: EDIT PASTE
+[2018.10.14-17.35.13:646][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.35.38:188][167]Cmd: EDIT COPY
+[2018.10.14-17.35.38:683][226]Cmd: EDIT PASTE
+[2018.10.14-17.36.10:247][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.36.10:305][830]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.36.10:317][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.36.10:317][830]PIE: New page: PIE session: Main (14 Oct 2018 19:36:10)
+[2018.10.14-17.36.10:318][830]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.36.10:333][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015074s)
+[2018.10.14-17.36.10:333][830]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.36.10:334][830]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2018.10.14-17.36.10:334][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.016007s)
+[2018.10.14-17.36.10:371][830]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.36.10:382][830]LogInit: FAudioDevice initialized.
+[2018.10.14-17.36.10:412][830]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.36.10:414][830]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.36.10
+[2018.10.14-17.36.10:414][830]LogWorld: Bringing up level for play took: 0.001321
+[2018.10.14-17.36.10:427][830]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.277
+[2018.10.14-17.36.20:396][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.36.20:428][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.36.20:459][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.36.20:499][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.10.14-17.37.04:612][234]Cmd: SELECT NONE
+[2018.10.14-17.37.19:783][  6]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.37.28:620][ 48]Cmd: EDIT COPY
+[2018.10.14-17.37.29:097][105]Cmd: EDIT PASTE
+[2018.10.14-17.37.46:707][117]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.14-17.39.05:289][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.39.18:427][921]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.10.14-17.39.18:461][921]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2018.10.14-17.39.22:003][342]LogEditorActor: Actor Light Source is referenced by Sky Sphere.
+[2018.10.14-17.39.26:826][342]LogSlate: Window 'Message' being destroyed
+[2018.10.14-17.39.26:870][342]LogEditorActor: Deleted 0 Actors (4.875 secs)
+[2018.10.14-17.39.29:389][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.39.29:709][677]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.10.14-17.39.29:739][677]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.10.14-17.39.31:374][868]LogEditorActor: Deleted Actor: SkyLight
+[2018.10.14-17.39.31:399][868]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.10.14-17.39.32:722][ 23]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.10.14-17.39.32:750][ 23]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.10.14-17.39.35:562][356]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.10.14-17.39.35:591][356]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.10.14-17.41.22:292][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.41.55:490][  2]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.42.45:947][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.43.26:277][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.43.54:773][930]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush6)
+[2018.10.14-17.43.54:816][930]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.43.55:554][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.44.33:439][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.45.02:746][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.45.38:550][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.46.20:432][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.47.08:354][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.47.08:404][508]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.47.08:417][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.47.08:417][508]PIE: New page: PIE session: Main (14 Oct 2018 19:47:08)
+[2018.10.14-17.47.08:417][508]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.47.08:432][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014257s)
+[2018.10.14-17.47.08:432][508]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.47.08:432][508]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.10.14-17.47.08:432][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015164s)
+[2018.10.14-17.47.08:477][508]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.47.08:488][508]LogInit: FAudioDevice initialized.
+[2018.10.14-17.47.08:518][508]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.47.08:520][508]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.47.08
+[2018.10.14-17.47.08:521][508]LogWorld: Bringing up level for play took: 0.001261
+[2018.10.14-17.47.08:533][508]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.383
+[2018.10.14-17.47.40:339][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.47.40:374][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.47.40:405][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.47.40:442][320]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.14-17.47.45:642][930]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-17.47.47:727][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.47.47:835][193]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.47.47:846][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.47.47:846][193]PIE: New page: PIE session: Main (14 Oct 2018 19:47:47)
+[2018.10.14-17.47.47:847][193]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.47.47:861][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014548s)
+[2018.10.14-17.47.47:862][193]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.47.47:862][193]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2018.10.14-17.47.47:862][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015462s)
+[2018.10.14-17.47.47:893][193]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.47.47:903][193]LogInit: FAudioDevice initialized.
+[2018.10.14-17.47.47:938][193]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.47.47:939][193]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.47.47
+[2018.10.14-17.47.47:940][193]LogWorld: Bringing up level for play took: 0.001226
+[2018.10.14-17.47.47:952][193]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.199
+[2018.10.14-17.47.51:843][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.47.51:879][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.47.51:908][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.47.51:945][660]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.14-17.48.06:477][366]Cmd: EDIT COPY
+[2018.10.14-17.48.06:797][404]Cmd: EDIT PASTE
+[2018.10.14-17.48.20:866][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.48.20:933][ 16]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.48.20:943][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.48.20:943][ 16]PIE: New page: PIE session: Main (14 Oct 2018 19:48:20)
+[2018.10.14-17.48.20:943][ 16]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.48.20:957][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014304s)
+[2018.10.14-17.48.20:958][ 16]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.48.20:958][ 16]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2018.10.14-17.48.20:958][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015043s)
+[2018.10.14-17.48.20:993][ 16]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.48.21:003][ 16]LogInit: FAudioDevice initialized.
+[2018.10.14-17.48.21:036][ 16]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.48.21:038][ 16]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.48.21
+[2018.10.14-17.48.21:038][ 16]LogWorld: Bringing up level for play took: 0.001103
+[2018.10.14-17.48.21:051][ 16]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.9
+[2018.10.14-17.48.32:043][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.48.32:079][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.48.32:109][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.48.32:147][335]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.14-17.49.31:442][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.49.34:970][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-17.49.35:171][842]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainDE03F7F944557DB6B759DBACB7B0958F.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-17.49.35:200][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-17.49.35:215][842]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData1A53E6934851CED58B9493BAD1A80CFB.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-17.49.53:484][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.50.00:394][846]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-17.50.04:076][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.50.47:382][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.51.10:805][  0]Cmd: EDIT COPY
+[2018.10.14-17.51.11:043][ 28]Cmd: EDIT PASTE
+[2018.10.14-17.51.33:114][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.51.33:181][608]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-17.51.33:192][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-17.51.33:192][608]PIE: New page: PIE session: Main (14 Oct 2018 19:51:33)
+[2018.10.14-17.51.33:192][608]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-17.51.33:207][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015001s)
+[2018.10.14-17.51.33:208][608]LogAIModule: Creating AISystem for world Main
+[2018.10.14-17.51.33:208][608]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.10.14-17.51.33:208][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.015936s)
+[2018.10.14-17.51.33:254][608]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-17.51.33:268][608]LogInit: FAudioDevice initialized.
+[2018.10.14-17.51.33:302][608]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-17.51.33:304][608]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-18.51.33
+[2018.10.14-17.51.33:304][608]LogWorld: Bringing up level for play took: 0.001179
+[2018.10.14-17.51.33:316][608]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.834
+[2018.10.14-17.51.46:029][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.51.46:060][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-17.51.46:088][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-17.51.46:129][136]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.10.14-17.52.01:841][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.52.03:886][232]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-17.52.19:202][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.52.26:666][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.53.02:157][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.53.27:724][925]Cmd: EDIT COPY
+[2018.10.14-17.53.28:110][971]Cmd: EDIT PASTE
+[2018.10.14-17.53.49:341][421]Cmd: EDIT COPY
+[2018.10.14-17.53.49:935][492]Cmd: EDIT PASTE
+[2018.10.14-17.53.58:033][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.54.25:348][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.54.42:726][573]Cmd: SELECT NONE
+[2018.10.14-17.55.00:007][616]Cmd: EDIT COPY
+[2018.10.14-17.55.00:319][653]Cmd: EDIT PASTE
+[2018.10.14-17.55.24:920][458]Cmd: SELECT NONE
+[2018.10.14-17.55.55:253][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-17.55.55:372][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-17.55.55:592][106]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainD736FA2F4288522E771E23B2B293BECB.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-17.55.55:620][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-17.55.55:634][106]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData279D69A6454CA1BE1AD89C80BB94A6DE.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.06.24:997][383]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-19.06.48:051][118]Cmd: SELECT NONE
+[2018.10.14-19.07.16:912][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.07.50:205][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.08.16:672][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.08.52:903][653]Cmd: SELECT NONE
+[2018.10.14-19.09.02:988][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.09.03:793][949]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-19.09.09:463][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.10.04:172][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.10.25:443][349]Cmd: EDIT COPY
+[2018.10.14-19.10.25:906][404]Cmd: EDIT PASTE
+[2018.10.14-19.11.56:729][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.11.57:518][195]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-19.12.01:549][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.12.31:263][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.13.00:763][605]Cmd: EDIT COPY
+[2018.10.14-19.13.01:100][645]Cmd: EDIT PASTE
+[2018.10.14-19.13.46:159][855]Cmd: EDIT COPY
+[2018.10.14-19.13.46:778][929]Cmd: EDIT PASTE
+[2018.10.14-19.14.02:661][761]Cmd: SELECT NONE
+[2018.10.14-19.14.26:197][567]Cmd: EDIT COPY
+[2018.10.14-19.14.26:519][605]Cmd: EDIT PASTE
+[2018.10.14-19.14.57:566][263]Cmd: EDIT COPY
+[2018.10.14-19.14.57:935][307]Cmd: EDIT PASTE
+[2018.10.14-19.15.23:193][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-19.15.33:313][423]Cmd: EDIT COPY
+[2018.10.14-19.15.34:449][559]Cmd: EDIT PASTE
+[2018.10.14-19.15.58:170][259]Cmd: SELECT NONE
+[2018.10.14-19.16.44:790][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.16.44:881][758]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.16.44:893][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.16.44:894][758]PIE: New page: PIE session: Main (14 Oct 2018 21:16:44)
+[2018.10.14-19.16.44:894][758]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.16.44:912][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017800s)
+[2018.10.14-19.16.44:912][758]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.16.44:913][758]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2018.10.14-19.16.44:913][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.019103s)
+[2018.10.14-19.16.44:965][758]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.16.44:978][758]LogInit: FAudioDevice initialized.
+[2018.10.14-19.16.45:012][758]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.16.45:015][758]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.16.45
+[2018.10.14-19.16.45:015][758]LogWorld: Bringing up level for play took: 0.001294
+[2018.10.14-19.16.45:029][758]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.879
+[2018.10.14-19.17.16:181][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.17.16:214][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.17.16:244][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.17.16:284][496]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.10.14-19.17.27:421][810]Cmd: EDIT COPY
+[2018.10.14-19.17.27:730][847]Cmd: EDIT PASTE
+[2018.10.14-19.17.50:916][482]Cmd: SELECT NONE
+[2018.10.14-19.17.58:332][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.17.58:807][419]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.17.58:818][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.17.58:818][419]PIE: New page: PIE session: Main (14 Oct 2018 21:17:58)
+[2018.10.14-19.17.58:818][419]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.17.58:836][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017739s)
+[2018.10.14-19.17.58:837][419]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.17.58:837][419]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2018.10.14-19.17.58:837][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.018636s)
+[2018.10.14-19.17.58:870][419]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.17.58:879][419]LogInit: FAudioDevice initialized.
+[2018.10.14-19.17.58:910][419]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.17.58:912][419]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.17.58
+[2018.10.14-19.17.58:912][419]LogWorld: Bringing up level for play took: 0.001427
+[2018.10.14-19.17.58:925][419]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.774
+[2018.10.14-19.18.21:967][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.18.22:003][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.18.22:032][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.18.22:072][187]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.10.14-19.18.29:724][ 89]Cmd: EDIT COPY
+[2018.10.14-19.18.30:925][233]Cmd: EDIT PASTE
+[2018.10.14-19.19.01:522][717]Cmd: SELECT NONE
+[2018.10.14-19.19.59:061][620]Cmd: SELECT NONE
+[2018.10.14-19.20.38:950][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.21.39:992][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.21.56:815][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.22.21:171][184]Cmd: EDIT COPY
+[2018.10.14-19.22.21:416][213]Cmd: EDIT PASTE
+[2018.10.14-19.22.42:649][617]Cmd: EDIT COPY
+[2018.10.14-19.22.42:909][648]Cmd: EDIT PASTE
+[2018.10.14-19.22.46:883][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.22.52:114][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.23.05:453][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.23.42:994][556]Cmd: EDIT COPY
+[2018.10.14-19.23.43:272][589]Cmd: EDIT PASTE
+[2018.10.14-19.24.16:755][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.24.16:851][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-19.24.17:096][471]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainBD48D3014C0A5EEE2EAFCF8FD129FA21.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-19.24.17:125][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-19.24.17:140][471]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData776CFAFC4A4FFF5587CC3F80115BED94.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.24.24:423][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.24.26:728][594]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-19.24.28:491][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.24.50:095][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.25.32:787][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.25.41:345][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.25.47:072][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.26.07:696][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.26.14:439][963]LogEditorViewport: Clicking Background
+[2018.10.14-19.26.15:757][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.27.01:948][519]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush59)
+[2018.10.14-19.27.04:684][837]Cmd: EDIT COPY
+[2018.10.14-19.27.05:021][877]Cmd: EDIT PASTE
+[2018.10.14-19.27.06:823][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.27.13:375][844]LogEditorViewport: Clicking Background
+[2018.10.14-19.27.13:880][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.28.46:556][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.28.46:614][718]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.28.46:625][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.28.46:626][718]PIE: New page: PIE session: Main (14 Oct 2018 21:28:46)
+[2018.10.14-19.28.46:626][718]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.28.46:644][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018397s)
+[2018.10.14-19.28.46:645][718]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.28.46:645][718]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2018.10.14-19.28.46:645][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.019355s)
+[2018.10.14-19.28.46:686][718]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.28.46:695][718]LogInit: FAudioDevice initialized.
+[2018.10.14-19.28.46:726][718]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.28.46:728][718]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.28.46
+[2018.10.14-19.28.46:728][718]LogWorld: Bringing up level for play took: 0.001224
+[2018.10.14-19.28.46:741][718]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.591
+[2018.10.14-19.29.16:873][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.29.16:906][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.29.16:937][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.29.16:977][335]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.10.14-19.29.43:365][433]Cmd: EDIT COPY
+[2018.10.14-19.29.44:069][517]Cmd: EDIT PASTE
+[2018.10.14-19.29.47:790][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.29.58:821][226]Cmd: TRANSACTION UNDO
+[2018.10.14-19.29.58:822][226]LogEditorTransaction: Undo Edit X
+[2018.10.14-19.29.58:854][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:855][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:860][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:861][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:861][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush48.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:862][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:862][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2018.10.14-19.29.58:863][226]LogActorComponent: ~FComponentReregisterContext: (/Game/MyContent/Maps/Main.Main:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2018.10.14-19.30.01:453][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.30.32:057][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-19.30.36:505][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.31.46:685][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.31.46:760][688]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.31.46:771][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.31.46:771][688]PIE: New page: PIE session: Main (14 Oct 2018 21:31:46)
+[2018.10.14-19.31.46:771][688]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.31.46:790][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018818s)
+[2018.10.14-19.31.46:791][688]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.31.46:791][688]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2018.10.14-19.31.46:791][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.019681s)
+[2018.10.14-19.31.46:825][688]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.31.46:833][688]LogInit: FAudioDevice initialized.
+[2018.10.14-19.31.46:862][688]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.31.46:864][688]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.31.46
+[2018.10.14-19.31.46:864][688]LogWorld: Bringing up level for play took: 0.001281
+[2018.10.14-19.31.46:877][688]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.727
+[2018.10.14-19.31.59:569][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.31.59:604][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.31.59:634][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.31.59:669][208]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.10.14-19.32.38:798][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.32.40:001][847]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-19.32.43:812][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.33.25:065][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.33.35:187][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.33.58:750][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.34.19:380][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.34.38:087][441]Cmd: EDIT COPY
+[2018.10.14-19.34.38:713][516]Cmd: EDIT PASTE
+[2018.10.14-19.34.57:124][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.34.57:182][623]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.34.57:194][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.34.57:194][623]PIE: New page: PIE session: Main (14 Oct 2018 21:34:57)
+[2018.10.14-19.34.57:194][623]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.34.57:212][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019300s)
+[2018.10.14-19.34.57:213][623]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.34.57:213][623]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.10.14-19.34.57:213][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.020170s)
+[2018.10.14-19.34.57:255][623]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.34.57:263][623]LogInit: FAudioDevice initialized.
+[2018.10.14-19.34.57:295][623]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.34.57:297][623]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.34.57
+[2018.10.14-19.34.57:297][623]LogWorld: Bringing up level for play took: 0.001274
+[2018.10.14-19.34.57:310][623]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.84
+[2018.10.14-19.35.44:946][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.35.44:979][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.35.45:009][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.35.45:049][342]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.10.14-19.35.46:177][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.36.07:432][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.36.07:531][ 27]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.36.07:543][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.36.07:543][ 27]PIE: New page: PIE session: Main (14 Oct 2018 21:36:07)
+[2018.10.14-19.36.07:543][ 27]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.36.07:562][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019171s)
+[2018.10.14-19.36.07:563][ 27]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.36.07:563][ 27]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2018.10.14-19.36.07:563][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.020038s)
+[2018.10.14-19.36.07:599][ 27]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.36.07:608][ 27]LogInit: FAudioDevice initialized.
+[2018.10.14-19.36.07:637][ 27]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.36.07:639][ 27]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.36.07
+[2018.10.14-19.36.07:639][ 27]LogWorld: Bringing up level for play took: 0.001453
+[2018.10.14-19.36.07:652][ 27]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.499
+[2018.10.14-19.36.36:046][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.36.36:080][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.36.36:112][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.36.36:154][431]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.10.14-19.36.37:281][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.36.37:386][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-19.36.37:604][576]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainD5889D914FFBE44A332B7C861CB31C77.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-19.36.37:629][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-19.36.37:642][576]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData9DFF4191406650050DF98CB1B47D081E.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.36.44:043][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.36.44:126][353]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.36.44:136][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.36.44:136][353]PIE: New page: PIE session: Main (14 Oct 2018 21:36:44)
+[2018.10.14-19.36.44:136][353]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.36.44:155][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018689s)
+[2018.10.14-19.36.44:156][353]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.36.44:156][353]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2018.10.14-19.36.44:156][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.019503s)
+[2018.10.14-19.36.44:193][353]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.36.44:202][353]LogInit: FAudioDevice initialized.
+[2018.10.14-19.36.44:232][353]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.36.44:234][353]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.36.44
+[2018.10.14-19.36.44:235][353]LogWorld: Bringing up level for play took: 0.001429
+[2018.10.14-19.36.44:247][353]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.096
+[2018.10.14-19.37.38:535][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.37.38:572][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.37.38:599][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.37.38:642][866]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.10.14-19.37.39:336][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.37.45:355][662]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Playercharacter.Bp_Playercharacter
+[2018.10.14-19.37.45:648][662]LogSlate: Took 0.005877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.14-19.37.47:782][908]LogSlate: Window 'Bp_Playercharacter' being destroyed
+[2018.10.14-19.37.49:193][ 76]LogSlate: Took 0.007512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.14-19.37.49:857][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.38.19:565][701]BlueprintLog: New page: Compile Bp_Playercharacter
+[2018.10.14-19.38.20:397][776]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_PlayercharacterF688D89F4271C560ADD341A8DACD6C1C.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Playercharacter.uasset'
+[2018.10.14-19.38.22:792][ 62]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.38.22:803][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.38.22:803][ 62]PIE: New page: PIE session: Main (14 Oct 2018 21:38:22)
+[2018.10.14-19.38.22:803][ 62]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.38.22:823][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019508s)
+[2018.10.14-19.38.22:823][ 62]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.38.22:824][ 62]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.10.14-19.38.22:824][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.020370s)
+[2018.10.14-19.38.22:857][ 62]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.38.22:866][ 62]LogInit: FAudioDevice initialized.
+[2018.10.14-19.38.22:893][ 62]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.38.22:895][ 62]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.38.22
+[2018.10.14-19.38.22:895][ 62]LogWorld: Bringing up level for play took: 0.001402
+[2018.10.14-19.38.22:908][ 62]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.758
+[2018.10.14-19.38.34:466][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.38.34:497][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.38.34:526][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.38.34:568][452]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.10.14-19.38.35:896][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.38.53:728][743]BlueprintLog: New page: Compile Bp_Playercharacter
+[2018.10.14-19.38.54:899][861]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_PlayercharacterC218127F43A8572B57010684E7F32BAF.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Playercharacter.uasset'
+[2018.10.14-19.38.57:218][135]LogRenderer: Reallocating scene render targets to support 1256x900 Format 10 NumSamples 1 (Frame:1).
+[2018.10.14-19.39.03:387][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.39.05:566][132]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.39.05:577][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.39.05:578][132]PIE: New page: PIE session: Main (14 Oct 2018 21:39:05)
+[2018.10.14-19.39.05:578][132]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.39.05:598][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020475s)
+[2018.10.14-19.39.05:599][132]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.39.05:599][132]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2018.10.14-19.39.05:599][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.021393s)
+[2018.10.14-19.39.05:632][132]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.39.05:642][132]LogInit: FAudioDevice initialized.
+[2018.10.14-19.39.05:674][132]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.39.05:675][132]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.39.05
+[2018.10.14-19.39.05:676][132]LogWorld: Bringing up level for play took: 0.001372
+[2018.10.14-19.39.05:688][132]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.462
+[2018.10.14-19.39.12:066][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.39.12:102][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.39.12:132][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.39.12:173][900]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.10.14-19.39.13:508][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.39.13:624][ 71]Candidate modules for hot reload:
+[2018.10.14-19.39.13:624][ 71]  EscapeFromWally
+[2018.10.14-19.39.13:624][ 71]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,3793 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.14-19.39.13:631][ 71]Warning: Starting HotReload took  0.0s.
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: New page: Compilation - 14 Oct 2018 21:39:18
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Creating makefile for hot reloading EscapeFromWallyEditor (game project files are newer)
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Target is up to date
+[2018.10.14-19.39.18:170][615]CompilerResultsLog: Total build time: 4.29 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.14-19.39.18:170][615]LogMainFrame: MainFrame: Module compiling took 4.559 seconds
+[2018.10.14-19.39.18:432][615]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2575 classes and 607 folders.
+[2018.10.14-19.39.18:434][615]Display: HotReload took  4.8s.
+[2018.10.14-19.39.23:428][214]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.39.23:440][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.39.23:440][214]PIE: New page: PIE session: Main (14 Oct 2018 21:39:23)
+[2018.10.14-19.39.23:440][214]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.39.23:459][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018866s)
+[2018.10.14-19.39.23:460][214]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.39.23:460][214]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2018.10.14-19.39.23:460][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.019843s)
+[2018.10.14-19.39.23:512][214]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.39.23:519][214]LogInit: FAudioDevice initialized.
+[2018.10.14-19.39.23:552][214]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.39.23:554][214]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.39.23
+[2018.10.14-19.39.23:554][214]LogWorld: Bringing up level for play took: 0.001461
+[2018.10.14-19.39.23:567][214]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.583
+[2018.10.14-19.40.36:718][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.40.36:754][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-19.40.36:784][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-19.40.36:819][989]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.10.14-19.42.11:699][ 67]Cmd: EDIT COPY
+[2018.10.14-19.42.11:953][ 97]Cmd: EDIT PASTE
+[2018.10.14-19.42.41:130][437]Cmd: EDIT COPY
+[2018.10.14-19.42.41:418][471]Cmd: EDIT PASTE
+[2018.10.14-19.43.02:921][876]Cmd: SELECT NONE
+[2018.10.14-19.43.11:107][834]Cmd: EDIT COPY
+[2018.10.14-19.43.11:977][938]Cmd: EDIT PASTE
+[2018.10.14-19.43.15:327][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.43.20:116][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.43.42:723][403]Cmd: EDIT COPY
+[2018.10.14-19.43.42:969][432]Cmd: EDIT PASTE
+[2018.10.14-19.44.28:463][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.44.28:558][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-19.44.28:801][146]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main3EA4F5F6487E2863368882A40D64B596.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-19.44.28:830][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-19.44.28:845][146]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData2026A93B4A0DA294D069478E30D52D9C.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.44.31:639][463]Cmd: SELECT NONE
+[2018.10.14-19.45.07:199][679]Cmd: EDIT COPY
+[2018.10.14-19.45.07:552][721]Cmd: EDIT PASTE
+[2018.10.14-19.45.33:372][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.46.06:326][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.46.27:602][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.14-19.46.34:287][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.47.11:420][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.47.30:482][242]Cmd: SELECT NONE
+[2018.10.14-19.47.56:203][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.48.00:588][844]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.14-19.48.10:758][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.48.10:844][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-19.48.11:085][  7]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main492559674B645E4DE05254B527604C26.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-19.48.11:109][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-19.48.11:118][  7]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltDataE13BACFB4E7F22E07FAC2DA9B32C1DB5.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.48.32:010][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.49.02:362][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.49.36:127][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.50.35:242][906]Cmd: EDIT COPY
+[2018.10.14-19.50.35:578][946]Cmd: EDIT PASTE
+[2018.10.14-19.50.42:296][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.50.47:969][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.51.50:141][553]Cmd: EDIT COPY
+[2018.10.14-19.51.50:436][588]Cmd: EDIT PASTE
+[2018.10.14-19.52.31:168][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.53.47:232][199]Cmd: EDIT COPY
+[2018.10.14-19.53.47:545][236]Cmd: EDIT PASTE
+[2018.10.14-19.53.54:545][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.54.06:731][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.54.15:707][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.54.55:837][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.55.45:031][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.56.06:483][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.56.44:760][791]Cmd: EDIT COPY
+[2018.10.14-19.56.45:006][820]Cmd: EDIT PASTE
+[2018.10.14-19.56.55:164][965]Cmd: SELECT NONE
+[2018.10.14-19.57.30:700][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.57.30:839][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-19.57.31:085][234]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main3427B52244ED6EEF7012729826AB8285.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-19.57.31:109][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-19.57.31:122][234]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData253201704AD0D173792F17A81E10E5AD.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.58.27:769][960]Cmd: EDIT COPY
+[2018.10.14-19.58.28:096][999]Cmd: EDIT PASTE
+[2018.10.14-19.58.38:586][169]Cmd: SELECT NONE
+[2018.10.14-19.59.19:726][900]Cmd: SELECT NONE
+[2018.10.14-19.59.38:353][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.59.38:459][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-19.59.38:676][137]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main23DB4BDB4739ECFDE6E07CBA37A42902.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-19.59.38:700][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-19.59.38:712][137]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData6CB04CE049C75AC254F67EABF8928FDE.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.14-19.59.40:933][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-19.59.41:000][410]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-19.59.41:013][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-19.59.41:013][410]PIE: New page: PIE session: Main (14 Oct 2018 21:59:41)
+[2018.10.14-19.59.41:013][410]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.14-19.59.41:034][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020448s)
+[2018.10.14-19.59.41:034][410]LogAIModule: Creating AISystem for world Main
+[2018.10.14-19.59.41:034][410]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.10.14-19.59.41:034][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.021233s)
+[2018.10.14-19.59.41:069][410]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.14-19.59.41:079][410]LogInit: FAudioDevice initialized.
+[2018.10.14-19.59.41:110][410]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.14-19.59.41:113][410]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.14-20.59.41
+[2018.10.14-19.59.41:113][410]LogWorld: Bringing up level for play took: 0.001708
+[2018.10.14-19.59.41:126][410]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.976
+[2018.10.14-20.00.06:999][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-20.00.07:039][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-20.00.07:072][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-20.00.07:105][514]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.10.14-20.00.18:461][861]Cmd: EDIT COPY
+[2018.10.14-20.00.18:747][895]Cmd: EDIT PASTE
+[2018.10.14-20.01.06:346][332]Cmd: EDIT COPY
+[2018.10.14-20.01.06:606][363]Cmd: EDIT PASTE
+[2018.10.14-20.01.37:528][933]Cmd: EDIT COPY
+[2018.10.14-20.01.37:805][966]Cmd: EDIT PASTE
+[2018.10.14-20.03.18:969][667]Cmd: EDIT COPY
+[2018.10.14-20.03.19:240][699]Cmd: EDIT PASTE
+[2018.10.14-20.04.20:389][834]Cmd: EDIT COPY
+[2018.10.14-20.04.20:666][867]Cmd: EDIT PASTE
+[2018.10.14-20.04.53:477][736]Cmd: EDIT COPY
+[2018.10.14-20.04.53:722][765]Cmd: EDIT PASTE
+[2018.10.14-20.05.17:891][605]Cmd: SELECT NONE
+[2018.10.14-20.05.56:800][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-20.05.56:992][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.14-20.05.57:246][398]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main444BBD4042E1F62C81BA78A500AC4A1A.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.14-20.05.57:272][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.14-20.05.57:285][398]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main_BuiltData2EB572EA44CD96F09EAD299ADD42CA22.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
