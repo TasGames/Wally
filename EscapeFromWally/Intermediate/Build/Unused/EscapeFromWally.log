@@ -1,0 +1,25 @@
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for EscapeFromWallyEditor (no existing makefile)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for EscapeFromWallyEditor
+    Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeFromWallyEditor in 9.6692041 seconds
+  Building 10 actions with 4 processes...
+    [1/10] PCLaunch.rc
+    [2/10] SharedPCH.Engine.cpp
+    [3/10] EscapeFromWallyGameModeBase.cpp
+    [4/10] EscapeFromWally.init.gen.cpp
+    [5/10] EscapeFromWallyGameModeBase.gen.cpp
+    [6/10] EscapeFromWally.cpp
+    [7/10] PlayerCharacter.cpp
+    [8/10] PlayerCharacter.gen.cpp
+    [9/10] UE4Editor-EscapeFromWally.lib
+       Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.exp
+    [10/10] UE4Editor-EscapeFromWally.dll
+       Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.suppressed.exp
+  Deploying EscapeFromWallyEditor Win64 Development...
+UnrealBuildTool : error : Failed to write dependency cache: Access to the path 'C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor' is denied.
+UnrealBuildTool : error : Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\ts2crt\Documents\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor' is denied.
+  Total build time: 45.42 seconds (Parallel executor: 27.84 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" EscapeFromWallyEditor Win64 Development "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" -WaitMutex -FromMsBuild" exited with code -1.
