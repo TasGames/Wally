@@ -40,7 +40,7 @@ void ACollectable::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor *
 		if (p)
 		{
 			Destroy();	//kill this collectable
-			p->valueCollected += value;
+			p->ValueCollected += value;
 		}
 	}
 }

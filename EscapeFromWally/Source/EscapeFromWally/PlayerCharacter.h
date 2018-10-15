@@ -15,13 +15,14 @@ class ESCAPEFROMWALLY_API APlayerCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
 
-	//Players Arms
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USkeletalMeshComponent* MeshP;
-
 	//Torch Mesh
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USkeletalMeshComponent* FP_Torch;
+		class UStaticMeshComponent* FP_Torch;
+
+	//Spot Light
+	UPROPERTY(VisibleDefaultsOnly, Category = Light)
+	class USpotLightComponent* SpotLight;
+
 
 public:
 	// Sets default values for this character's properties
@@ -45,16 +46,21 @@ protected:
 	void MoveVer(float Val);
 	void MoveHor(float Val);
 
+	void UseTorch();
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 public:
-	//Returns MeshP subobject
-	FORCEINLINE class USkeletalMeshComponent* GetMesh1P() const { return MeshP; }
+	//Returns FP_Torch subobject
+	FORCEINLINE class UStaticMeshComponent* GetTorchMesh() const { return FP_Torch; }
 	//Returns FirstPersonCameraComponent subobject 
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		int valueCollected;
+		int ValueCollected;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool TorchOn;
 	
 };
