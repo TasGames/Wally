@@ -2435,3 +2435,46 @@ LogInit: Object subsystem initialized
 [2018.10.15-17.45.00:899][416]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2018.10.15-17.45.00:921][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.10.15-17.45.00:972][421]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2018.10.15-17.48.09:269][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-17.48.09:477][ 65]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-17.48.09:492][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-17.48.09:493][ 65]PIE: New page: PIE session: Main (15 Oct 2018 19:48:09)
+[2018.10.15-17.48.09:493][ 65]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.15-17.48.09:515][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021992s)
+[2018.10.15-17.48.09:515][ 65]LogAIModule: Creating AISystem for world Main
+[2018.10.15-17.48.09:516][ 65]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2018.10.15-17.48.09:516][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022903s)
+[2018.10.15-17.48.09:545][ 65]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.15-17.48.09:553][ 65]LogInit: FAudioDevice initialized.
+[2018.10.15-17.48.09:581][ 65]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.15-17.48.09:584][ 65]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.15-18.48.09
+[2018.10.15-17.48.09:584][ 65]LogWorld: Bringing up level for play took: 0.001735
+[2018.10.15-17.48.09:597][ 65]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.157
+[2018.10.15-17.48.11:312][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-17.48.11:346][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-17.48.11:388][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-17.48.11:415][259]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2018.10.15-17.48.11:441][262]Cmd: SELECT NONE
+[2018.10.15-17.48.12:658][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-17.48.12:768][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.15-17.48.13:168][420]LogSavePackage: Moving '../../../../../../Temp/TAS/Wally/EscapeFromWally/Saved/Main3F827091431A46A3C5DF04922F2AEF16.tmp' to '../../../../../../Temp/TAS/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.15-17.48.13:218][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main_BuiltData" FILE="../../../../../../Temp/TAS/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset" SILENT=true
+[2018.10.15-17.48.13:299][420]LogSavePackage: Moving '../../../../../../Temp/TAS/Wally/EscapeFromWally/Saved/Main_BuiltData0A439EA446A8B908F1E0F88E7C8A61AC.tmp' to '../../../../../../Temp/TAS/Wally/EscapeFromWally/Content/MyContent/Maps/Main_BuiltData.uasset'
+[2018.10.15-17.48.25:299][859]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-17.48.25:314][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-17.48.25:314][859]PIE: New page: PIE session: Main (15 Oct 2018 19:48:25)
+[2018.10.15-17.48.25:314][859]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.15-17.48.25:342][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028490s)
+[2018.10.15-17.48.25:343][859]LogAIModule: Creating AISystem for world Main
+[2018.10.15-17.48.25:343][859]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2018.10.15-17.48.25:343][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.029254s)
+[2018.10.15-17.48.25:369][859]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.15-17.48.25:377][859]LogInit: FAudioDevice initialized.
+[2018.10.15-17.48.25:404][859]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.15-17.48.25:407][859]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.15-18.48.25
+[2018.10.15-17.48.25:407][859]LogWorld: Bringing up level for play took: 0.001926
+[2018.10.15-17.48.25:420][859]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.02
+[2018.10.15-17.48.28:609][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-17.48.28:642][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-17.48.28:666][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-17.48.28:710][245]LogPlayLevel: Display: Destroying online subsystem :Context_92
