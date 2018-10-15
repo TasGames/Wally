@@ -53,5 +53,8 @@ public:
 	FORCEINLINE class USkeletalMeshComponent* GetMesh1P() const { return MeshP; }
 	//Returns FirstPersonCameraComponent subobject 
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		int valueCollected;
 	
 };
