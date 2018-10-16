@@ -11,6 +11,10 @@ class ESCAPEFROMWALLY_API APlayerCharacter : public ACharacter
 {
 	GENERATED_BODY()
 	
+	//Create Trigger Capsule
+	UPROPERTY(VisibleAnywhere, Category = TriggerCapsule)
+	class UCapsuleComponent* TriggerCapsule;
+
 	//First Person Camera
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
@@ -23,23 +27,25 @@ class ESCAPEFROMWALLY_API APlayerCharacter : public ACharacter
 	UPROPERTY(VisibleDefaultsOnly, Category = Light)
 	class USpotLightComponent* SpotLight;
 
-
 public:
-	// Sets default values for this character's properties
+	//Sets default values for this character's properties
 	APlayerCharacter();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	//Declare overlap begin function
+	UFUNCTION()
+	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-public:	
-	//How fast player turns horizontally
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-	float BaseTurnRate;
+	//Declare overlap end function
+	UFUNCTION()
+	void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	//How fast the player looks vertically
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-	float BaseLookUpRate;
+	class ADoor* CurrentDoor;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	int ValueCollected;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool TorchOn;
 
 protected:
 
@@ -47,20 +53,15 @@ protected:
 	void MoveHor(float Val);
 
 	void UseTorch();
+	void OnAction();
 
-	// Called to bind functionality to input
+	//Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 public:
 	//Returns FP_Torch subobject
-	FORCEINLINE class UStaticMeshComponent* GetTorchMesh() const { return FP_Torch; }
+	//FORCEINLINE class UStaticMeshComponent* GetTorchMesh() const { return FP_Torch; }
 	//Returns FirstPersonCameraComponent subobject 
-	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	int ValueCollected;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	bool TorchOn;
+	//FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 	
 };

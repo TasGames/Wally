@@ -16,15 +16,6 @@ struct FVector;
 
 #define EscapeFromWally_Source_EscapeFromWally_Door_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execToggleDoor) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_ForwardVector); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ToggleDoor(Z_Param_ForwardVector); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execOpenDoor) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaTime); \
@@ -40,21 +31,21 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CloseDoor(Z_Param_DeltaTime); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execToggleDoor) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_ForwardVector); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ToggleDoor(Z_Param_ForwardVector); \
 		P_NATIVE_END; \
 	}
 
 
 #define EscapeFromWally_Source_EscapeFromWally_Door_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execToggleDoor) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_ForwardVector); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ToggleDoor(Z_Param_ForwardVector); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execOpenDoor) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaTime); \
@@ -70,6 +61,15 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CloseDoor(Z_Param_DeltaTime); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execToggleDoor) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_ForwardVector); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ToggleDoor(Z_Param_ForwardVector); \
 		P_NATIVE_END; \
 	}
 

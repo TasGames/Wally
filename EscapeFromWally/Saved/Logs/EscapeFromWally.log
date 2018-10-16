@@ -1520,3 +1520,1083 @@ LogInit: Object subsystem initialized
 [2018.10.16-02.20.27:615][950]Display: HotReload took 17.9s.
 [2018.10.16-02.20.30:740][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2018.10.16-02.20.30:964][312]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainAA8DE8B347DEA091475DE799FD78AC5D.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.16-02.21.49:152][811]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-02.21.49:161][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-02.21.49:162][811]PIE: New page: PIE session: Main (16 Oct 2018 04:21:49)
+[2018.10.16-02.21.49:162][811]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-02.21.49:183][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021742s)
+[2018.10.16-02.21.49:184][811]LogAIModule: Creating AISystem for world Main
+[2018.10.16-02.21.49:184][811]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2018.10.16-02.21.49:185][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023071s)
+[2018.10.16-02.21.49:226][811]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-02.21.49:236][811]LogInit: FAudioDevice initialized.
+[2018.10.16-02.21.49:269][811]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-02.21.49:271][811]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-03.21.49
+[2018.10.16-02.21.49:272][811]LogWorld: Bringing up level for play took: 0.001705
+[2018.10.16-02.21.49:284][811]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.699
+[2018.10.16-02.22.22:755][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-02.22.22:790][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-02.22.22:816][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-02.22.22:862][819]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.16-02.31.10:116][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-02.31.10:393][563]Candidate modules for hot reload:
+[2018.10.16-02.31.10:393][563]  EscapeFromWally
+[2018.10.16-02.31.10:394][563]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,4389 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.31.10:400][563]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:31:37
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: Reflection code generated for EscapeFromWallyEditor in 9.4177349 seconds
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   [1/6] EscapeFromWally.init.gen.cpp
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   [2/6] PlayerCharacter.gen.cpp
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   [3/6] Collectable.cpp
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   [4/6] PlayerCharacter.cpp
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   [5/6] UE4Editor-EscapeFromWally-4389.lib
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4389.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4389.exp
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:   [6/6] UE4Editor-EscapeFromWally-4389.dll
+[2018.10.16-02.31.37:040][745]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4389.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4389.suppressed.exp
+[2018.10.16-02.31.37:040][745]CompilerResultsLog: Total build time: 26.37 seconds (Parallel executor: 15.46 seconds)
+[2018.10.16-02.31.37:040][745]LogMainFrame: MainFrame: Module compiling took 26.661 seconds
+[2018.10.16-02.31.37:080][745]LogClass: Could not find existing class PlayerCharacter in package /Script/EscapeFromWally for HotReload, assuming new class
+[2018.10.16-02.31.37:088][745]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2018.10.16-02.31.37:262][745]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2018.10.16-02.31.37:265][745]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.10.16-02.31.37:557][745]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-02.31.37:557][745]Display: HotReload took 27.2s.
+[2018.10.16-02.32.26:729][ 30]Candidate modules for hot reload:
+[2018.10.16-02.32.26:729][ 30]  EscapeFromWally
+[2018.10.16-02.32.26:730][ 30]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,2768 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.32.26:736][ 30]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:32:52
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: Reflection code generated for EscapeFromWallyEditor in 9.4084283 seconds
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:   [1/5] PlayerCharacter.gen.cpp
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:   [2/5] Collectable.cpp
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:   [3/5] PlayerCharacter.cpp
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:   [4/5] UE4Editor-EscapeFromWally-2768.lib
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2768.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2768.exp
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:   [5/5] UE4Editor-EscapeFromWally-2768.dll
+[2018.10.16-02.32.52:818][144]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2768.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2768.suppressed.exp
+[2018.10.16-02.32.52:818][144]CompilerResultsLog: Total build time: 25.78 seconds (Parallel executor: 14.83 seconds)
+[2018.10.16-02.32.52:818][144]LogMainFrame: MainFrame: Module compiling took 26.101 seconds
+[2018.10.16-02.32.52:894][144]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-02.32.52:896][144]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.10.16-02.32.53:204][144]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-02.32.53:204][144]Display: HotReload took 26.5s.
+[2018.10.16-02.33.13:899][644]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Playercharacter.Bp_PlayerCharacter
+[2018.10.16-02.34.15:818][328]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.061
+[2018.10.16-02.34.15:820][328]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/Blueprints/Bp_Playercharacter] ([1] browsable assets)...
+[2018.10.16-02.34.15:851][328]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/Blueprints/Bp_Playercharacter.Bp_PlayerCharacter]
+[2018.10.16-02.34.15:851][328]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Blueprints/Bp_Playercharacter]
+[2018.10.16-02.34.15:874][328]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_Playercharacter_Auto2DE293EB24AF6AF3F7A672B98A529BE62.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Autosaves/Game/MyContent/Blueprints/Bp_Playercharacter_Auto2.uasset'
+[2018.10.16-02.34.15:876][328]LogFileHelpers: Auto-saving content packages took 0.057
+[2018.10.16-02.37.45:228][868]BlueprintLog: New page: Compile Bp_PlayerCharacter
+[2018.10.16-02.37.46:133][937]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_Playercharacter6FCE88A74C67E5440043CBAF7881DE06.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Playercharacter.uasset'
+[2018.10.16-02.37.55:496][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-02.37.55:505][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-02.37.55:506][ 53]PIE: New page: PIE session: Main (16 Oct 2018 04:37:55)
+[2018.10.16-02.37.55:506][ 53]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-02.37.55:528][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021929s)
+[2018.10.16-02.37.55:528][ 53]LogAIModule: Creating AISystem for world Main
+[2018.10.16-02.37.55:528][ 53]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.10.16-02.37.55:528][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022746s)
+[2018.10.16-02.37.55:556][ 53]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-02.37.55:565][ 53]LogInit: FAudioDevice initialized.
+[2018.10.16-02.37.55:592][ 53]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-02.37.55:594][ 53]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-03.37.55
+[2018.10.16-02.37.55:595][ 53]LogWorld: Bringing up level for play took: 0.001605
+[2018.10.16-02.37.55:607][ 53]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.376
+[2018.10.16-02.37.58:439][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-02.37.58:476][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-02.37.58:502][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-02.37.58:544][395]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.16-02.38.02:755][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-02.38.02:939][683]Candidate modules for hot reload:
+[2018.10.16-02.38.02:939][683]  EscapeFromWally
+[2018.10.16-02.38.02:939][683]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,3515 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.38.02:945][683]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.38.17:415][418]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:38:17
+[2018.10.16-02.38.17:415][418]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.38.17:415][418]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.38.17:415][418]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-02.38.17:415][418]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-02.38.17:415][418]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-3515.lib
+[2018.10.16-02.38.17:415][418]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3515.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3515.exp
+[2018.10.16-02.38.17:415][418]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-3515.dll
+[2018.10.16-02.38.17:415][418]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3515.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3515.suppressed.exp
+[2018.10.16-02.38.17:415][418]CompilerResultsLog: Total build time: 14.22 seconds (Parallel executor: 12.87 seconds)
+[2018.10.16-02.38.17:415][418]LogMainFrame: MainFrame: Module compiling took 14.494 seconds
+[2018.10.16-02.38.17:460][418]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2018.10.16-02.38.17:635][418]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2018.10.16-02.38.17:639][418]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.10.16-02.38.17:927][418]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-02.38.17:927][418]Display: HotReload took 15.0s.
+[2018.10.16-02.53.35:658][416]Candidate modules for hot reload:
+[2018.10.16-02.53.35:658][416]  EscapeFromWally
+[2018.10.16-02.53.35:659][416]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,2197 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.53.35:669][416]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.53.46:640][729]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:53:46
+[2018.10.16-02.53.46:640][729]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.53.46:640][729]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.53.46:640][729]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.16-02.53.46:640][729]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.16-02.53.46:640][729]CompilerResultsLog: Error: A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Source/EscapeFromWally/PlayerCharacter.h(15)  : Error: Missing ',' in Variable declaration specifier
+[2018.10.16-02.53.46:640][729]CompilerResultsLog: UnrealHeaderTool failed for target 'EscapeFromWallyEditor' (platform: Win64, module info: A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest).
+[2018.10.16-02.53.46:640][729]LogMainFrame: MainFrame: Module compiling took 10.997 seconds
+[2018.10.16-02.53.46:640][729]Warning: HotReload failed, recompile failed
+[2018.10.16-02.55.15:261][858]Candidate modules for hot reload:
+[2018.10.16-02.55.15:261][858]  EscapeFromWally
+[2018.10.16-02.55.15:261][858]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,5993 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.55.15:267][858]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:55:40
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: Reflection code generated for EscapeFromWallyEditor in 9.5053028 seconds
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   [1/6] EscapeFromWally.init.gen.cpp
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   [2/6] PlayerCharacter.gen.cpp
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   [3/6] PlayerCharacter.cpp
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Source\EscapeFromWally\PlayerCharacter.cpp(52) : error C2027: use of undefined type 'Door'
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   a:\projects\unreal engine projects\wally\escapefromwally\source\escapefromwally\PlayerCharacter.h(42): note: see declaration of 'Door'
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Source\EscapeFromWally\PlayerCharacter.cpp(93) : error C2027: use of undefined type 'Door'
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   a:\projects\unreal engine projects\wally\escapefromwally\source\escapefromwally\PlayerCharacter.h(42): note: see declaration of 'Door'
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:   [4/6] Collectable.cpp
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Binaries\Win64\UE4Editor-EscapeFromWally-5993.dll
+[2018.10.16-02.55.40:161][834]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.16-02.55.40:161][834]CompilerResultsLog: Total build time: 24.66 seconds (Parallel executor: 0.00 seconds)
+[2018.10.16-02.55.40:161][834]LogMainFrame: MainFrame: Module compiling took 24.914 seconds
+[2018.10.16-02.55.40:161][834]Warning: HotReload failed, recompile failed
+[2018.10.16-02.57.21:826][155]Candidate modules for hot reload:
+[2018.10.16-02.57.21:826][155]  EscapeFromWally
+[2018.10.16-02.57.21:827][155]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,4864 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.57.21:833][155]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.57.46:553][110]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:57:46
+[2018.10.16-02.57.46:553][110]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.57.46:554][110]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.57.46:554][110]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.16-02.57.46:554][110]CompilerResultsLog: Reflection code generated for EscapeFromWallyEditor in 9.414823 seconds
+[2018.10.16-02.57.46:554][110]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:   [1/5] PlayerCharacter.gen.cpp
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:   [2/5] PlayerCharacter.cpp
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Source\EscapeFromWally\PlayerCharacter.cpp(93) : error C2248: 'ADoor::ToggleDoor': cannot access protected member declared in class 'ADoor'
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:   a:\projects\unreal engine projects\wally\escapefromwally\source\escapefromwally\Door.h(42): note: see declaration of 'ADoor::ToggleDoor'
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:   a:\projects\unreal engine projects\wally\escapefromwally\source\escapefromwally\Door.h(10): note: see declaration of 'ADoor'
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:   [3/5] Collectable.cpp
+[2018.10.16-02.57.46:554][110]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Binaries\Win64\UE4Editor-EscapeFromWally-4864.dll
+[2018.10.16-02.57.46:554][110]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.16-02.57.46:554][110]CompilerResultsLog: Total build time: 24.48 seconds (Parallel executor: 0.00 seconds)
+[2018.10.16-02.57.46:554][110]LogMainFrame: MainFrame: Module compiling took 24.741 seconds
+[2018.10.16-02.57.46:554][110]Warning: HotReload failed, recompile failed
+[2018.10.16-02.58.47:285][117]Candidate modules for hot reload:
+[2018.10.16-02.58.47:285][117]  EscapeFromWally
+[2018.10.16-02.58.47:285][117]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,6001 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-02.58.47:292][117]Warning: Starting HotReload took  0.0s.
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog: New page: Compilation - 16 Oct 2018 04:59:11
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog: Reflection code generated for EscapeFromWallyEditor in 9.3147253 seconds
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog:   [1/6] EscapeFromWally.init.gen.cpp
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog:   [2/6] Door.gen.cpp
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog:   [3/6] Door.cpp
+[2018.10.16-02.59.11:864][ 55]CompilerResultsLog:   [4/6] PlayerCharacter.cpp
+[2018.10.16-02.59.11:865][ 55]CompilerResultsLog:   [5/6] UE4Editor-EscapeFromWally-6001.lib
+[2018.10.16-02.59.11:865][ 55]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6001.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6001.exp
+[2018.10.16-02.59.11:865][ 55]CompilerResultsLog:   [6/6] UE4Editor-EscapeFromWally-6001.dll
+[2018.10.16-02.59.11:865][ 55]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6001.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6001.suppressed.exp
+[2018.10.16-02.59.11:865][ 55]CompilerResultsLog: Total build time: 24.32 seconds (Parallel executor: 13.52 seconds)
+[2018.10.16-02.59.11:865][ 55]LogMainFrame: MainFrame: Module compiling took 24.593 seconds
+[2018.10.16-02.59.11:943][ 55]LogClass: Could not find existing class Door in package /Script/EscapeFromWally for HotReload, assuming new class
+[2018.10.16-02.59.11:944][ 55]LogClass: Function CloseDoor is new.
+[2018.10.16-02.59.11:944][ 55]LogClass: Function OpenDoor is new.
+[2018.10.16-02.59.11:944][ 55]LogClass: Function ToggleDoor is new.
+[2018.10.16-02.59.11:945][ 55]LogClass: Could not find existing class PlayerCharacter in package /Script/EscapeFromWally for HotReload, assuming new class
+[2018.10.16-02.59.11:945][ 55]LogClass: Function OnOverlapBegin is new.
+[2018.10.16-02.59.11:945][ 55]LogClass: Function OnOverlapEnd is new.
+[2018.10.16-02.59.11:952][ 55]LogHotReload: Re-instancing Door after hot-reload.
+[2018.10.16-02.59.12:068][ 55]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2018.10.16-02.59.12:298][ 55]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-02.59.12:301][ 55]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.10.16-02.59.12:625][ 55]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-02.59.12:625][ 55]Display: HotReload took 25.4s.
+[2018.10.16-02.59.16:740][548]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-02.59.16:749][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-02.59.16:749][548]PIE: New page: PIE session: Main (16 Oct 2018 04:59:16)
+[2018.10.16-02.59.16:750][548]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-02.59.16:771][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021812s)
+[2018.10.16-02.59.16:772][548]LogAIModule: Creating AISystem for world Main
+[2018.10.16-02.59.16:777][548]LogPlayLevel: PIE: World Init took: (0.005712s)
+[2018.10.16-02.59.16:777][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.027686s)
+[2018.10.16-02.59.16:833][548]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-02.59.16:842][548]LogInit: FAudioDevice initialized.
+[2018.10.16-02.59.16:870][548]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-02.59.16:872][548]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-03.59.16
+[2018.10.16-02.59.16:873][548]LogWorld: Bringing up level for play took: 0.001643
+[2018.10.16-02.59.16:887][548]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.903
+[2018.10.16-02.59.30:164][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-02.59.30:196][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-02.59.30:226][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-02.59.30:271][143]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.16-02.59.32:557][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-02.59.32:661][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.16-02.59.32:859][427]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main393746914A0DF2C0598FE38FE0E6769A.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.16-03.04.37:483][770]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
+[2018.10.16-03.04.39:778][956]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:192).
+[2018.10.16-03.04.40:217][  7]LogSlate: Window 'SM_Door' being destroyed
+[2018.10.16-03.05.14:134][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.05.14:284][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Door" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/StarterContent/Props/SM_Door.uasset" SILENT=true
+[2018.10.16-03.05.14:306][664]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/SM_DoorADC9E0B645642D2841B44FA0A1563685.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/StarterContent/Props/SM_Door.uasset'
+[2018.10.16-03.05.20:102][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.05.43:342][264]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.16-03.05.50:051][ 62]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Door.Bp_Door
+[2018.10.16-03.05.52:641][308]LogSlate: Window 'Bp_Door*' being destroyed
+[2018.10.16-03.05.58:370][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.06.20:835][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.07.09:984][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.07.10:058][443]BlueprintLog: New page: Compile Bp_Door
+[2018.10.16-03.07.10:716][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_Door" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Door.uasset" SILENT=true
+[2018.10.16-03.07.10:733][500]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_Door7083C81C41F91AD560B6EA962B41DC31.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Door.uasset'
+[2018.10.16-03.07.32:323][509]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.16-03.07.44:841][984]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCharacter3.Bp_PlayerCharacter3
+[2018.10.16-03.07.50:127][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.08.13:624][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.08.16:867][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.08.16:950][746]BlueprintLog: New page: Compile Bp_PlayerCharacter3
+[2018.10.16-03.08.17:624][801]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_PlayerCharacter35262C7104B16B666F9F219A0CB9A95A3.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_PlayerCharacter3.uasset'
+[2018.10.16-03.08.19:936][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.08.41:867][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_Door" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Door.uasset" SILENT=true
+[2018.10.16-03.08.41:878][115]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_DoorE06E62FA4E26123DAC17E9B950625688.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Door.uasset'
+[2018.10.16-03.08.50:566][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.09.14:371][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.09.14:577][912]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_efwGameMode.Bp_efwGameMode
+[2018.10.16-03.09.16:603][123]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.16-03.09.19:718][492]BlueprintLog: New page: Compile Bp_efwGameMode
+[2018.10.16-03.09.20:360][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_efwGameMode" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_efwGameMode.uasset" SILENT=true
+[2018.10.16-03.09.20:393][551]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_efwGameModeF74B55BE41B0EC158FE93A8ABAD1377E.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_efwGameMode.uasset'
+[2018.10.16-03.09.21:957][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.16-03.09.22:159][736]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainA379167E40B94BCB72E73BB7DDACEC98.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.16-03.09.23:197][857]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.09.23:217][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.09.23:217][857]PIE: New page: PIE session: Main (16 Oct 2018 05:09:23)
+[2018.10.16-03.09.23:218][857]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.09.23:239][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021248s)
+[2018.10.16-03.09.23:239][857]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.09.23:240][857]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2018.10.16-03.09.23:240][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022137s)
+[2018.10.16-03.09.23:275][857]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.09.23:284][857]LogInit: FAudioDevice initialized.
+[2018.10.16-03.09.23:319][857]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.09.23:321][857]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.09.23
+[2018.10.16-03.09.23:323][857]LogWorld: Bringing up level for play took: 0.003230
+[2018.10.16-03.09.23:336][857]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.647
+[2018.10.16-03.09.44:928][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.09.44:963][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.09.44:995][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.09.45:022][442]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.16-03.09.59:039][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.16-03.09.59:504][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.16-03.10.00:915][342]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.16-03.10.01:532][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.16-03.10.04:131][630]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.16-03.10.04:149][630]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.16-03.10.04:174][631]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeFromWally
+[2018.10.16-03.10.04:174][631]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.16-03.10.04:174][631]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.16-03.10.04:174][631]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.16-03.10.04:174][631]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.16-03.10.04:192][633]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.16-03.10.28:819][570]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.10.28:833][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.10.28:833][570]PIE: New page: PIE session: Main (16 Oct 2018 05:10:28)
+[2018.10.16-03.10.28:833][570]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.10.28:855][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022739s)
+[2018.10.16-03.10.28:856][570]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.10.28:856][570]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2018.10.16-03.10.28:856][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023497s)
+[2018.10.16-03.10.28:890][570]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.10.28:898][570]LogInit: FAudioDevice initialized.
+[2018.10.16-03.10.28:929][570]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.10.28:931][570]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.10.28
+[2018.10.16-03.10.28:932][570]LogWorld: Bringing up level for play took: 0.001757
+[2018.10.16-03.10.28:944][570]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.961
+[2018.10.16-03.10.36:395][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.10.36:432][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.10.36:464][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.10.36:500][466]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.16-03.10.49:187][979]LogEditorViewport: Clicking on Actor (LMB): Bp_Door_C (Bp_Door)
+[2018.10.16-03.10.52:698][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.10.52:815][406]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.10.52:829][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.10.52:829][406]PIE: New page: PIE session: Main (16 Oct 2018 05:10:52)
+[2018.10.16-03.10.52:829][406]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.10.52:851][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021345s)
+[2018.10.16-03.10.52:851][406]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.10.52:851][406]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.10.16-03.10.52:852][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022091s)
+[2018.10.16-03.10.52:884][406]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.10.52:892][406]LogInit: FAudioDevice initialized.
+[2018.10.16-03.10.52:920][406]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.10.52:922][406]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.10.52
+[2018.10.16-03.10.52:923][406]LogWorld: Bringing up level for play took: 0.001696
+[2018.10.16-03.10.52:935][406]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.952
+[2018.10.16-03.11.07:179][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.11.07:218][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.11.07:250][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.11.07:283][117]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.16-03.11.08:420][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.11.17:894][382]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Playercharacter.Bp_PlayerCharacter
+[2018.10.16-03.11.58:973][251]BlueprintLog: New page: Compile Bp_PlayerCharacter3
+[2018.10.16-03.11.59:811][325]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_PlayerCharacter3E9D7F2794E775FF7894096AC70BC7E2D.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_PlayerCharacter3.uasset'
+[2018.10.16-03.12.06:547][120]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.12.06:562][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.12.06:562][120]PIE: New page: PIE session: Main (16 Oct 2018 05:12:06)
+[2018.10.16-03.12.06:562][120]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.12.06:583][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020928s)
+[2018.10.16-03.12.06:583][120]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.12.06:584][120]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.10.16-03.12.06:584][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.021796s)
+[2018.10.16-03.12.06:621][120]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.12.06:629][120]LogInit: FAudioDevice initialized.
+[2018.10.16-03.12.06:661][120]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.12.06:663][120]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.12.06
+[2018.10.16-03.12.06:664][120]LogWorld: Bringing up level for play took: 0.001742
+[2018.10.16-03.12.06:675][120]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.693
+[2018.10.16-03.12.18:746][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.12.18:785][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.12.18:815][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.12.18:850][570]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.10.16-03.12.21:880][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.12.21:983][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.16-03.12.22:181][934]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main5289536846AFA9775E0EF7AE6A463107.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.16-03.14.50:204][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.14.50:221][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.14.50:221][ 86]PIE: New page: PIE session: Main (16 Oct 2018 05:14:50)
+[2018.10.16-03.14.50:221][ 86]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.14.50:243][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021954s)
+[2018.10.16-03.14.50:243][ 86]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.14.50:244][ 86]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.10.16-03.14.50:244][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022783s)
+[2018.10.16-03.14.50:283][ 86]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.14.50:292][ 86]LogInit: FAudioDevice initialized.
+[2018.10.16-03.14.50:326][ 86]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.14.50:328][ 86]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.14.50
+[2018.10.16-03.14.50:328][ 86]LogWorld: Bringing up level for play took: 0.001680
+[2018.10.16-03.14.50:341][ 86]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.358
+[2018.10.16-03.15.01:413][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.15.01:446][395]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.15.01:479][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.15.01:515][398]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.10.16-03.15.05:161][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.15.05:305][849]Candidate modules for hot reload:
+[2018.10.16-03.15.05:305][849]  EscapeFromWally
+[2018.10.16-03.15.05:305][849]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,2050 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.15.05:311][849]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:15:23
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: Creating makefile for hot reloading EscapeFromWallyEditor (ini files are newer than UBTMakefile)
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-2050.lib
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2050.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2050.exp
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-2050.dll
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2050.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2050.suppressed.exp
+[2018.10.16-03.15.23:402][ 18]CompilerResultsLog: Total build time: 17.85 seconds (Parallel executor: 13.27 seconds)
+[2018.10.16-03.15.23:402][ 18]LogMainFrame: MainFrame: Module compiling took 18.110 seconds
+[2018.10.16-03.15.23:456][ 18]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.15.23:460][ 18]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.15.23:754][ 18]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.15.23:754][ 18]Display: HotReload took 18.5s.
+[2018.10.16-03.15.27:224][434]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.15.27:240][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.15.27:240][434]PIE: New page: PIE session: Main (16 Oct 2018 05:15:27)
+[2018.10.16-03.15.27:240][434]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.15.27:262][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022012s)
+[2018.10.16-03.15.27:262][434]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.15.27:263][434]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.10.16-03.15.27:263][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022804s)
+[2018.10.16-03.15.27:315][434]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.15.27:324][434]LogInit: FAudioDevice initialized.
+[2018.10.16-03.15.27:357][434]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.15.27:359][434]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.15.27
+[2018.10.16-03.15.27:360][434]LogWorld: Bringing up level for play took: 0.001873
+[2018.10.16-03.15.27:373][434]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.61
+[2018.10.16-03.15.41:046][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.15.41:088][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.15.41:123][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.15.41:152][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.10.16-03.16.02:708][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.16.02:809][747]Candidate modules for hot reload:
+[2018.10.16-03.16.02:809][747]  EscapeFromWally
+[2018.10.16-03.16.02:809][747]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,5768 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.16.02:817][747]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.16.17:700][531]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:16:17
+[2018.10.16-03.16.17:700][531]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.16.17:700][531]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.16.17:700][531]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.16.17:701][531]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-03.16.17:701][531]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-5768.lib
+[2018.10.16-03.16.17:701][531]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-5768.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-5768.exp
+[2018.10.16-03.16.17:701][531]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-5768.dll
+[2018.10.16-03.16.17:701][531]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-5768.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-5768.suppressed.exp
+[2018.10.16-03.16.17:701][531]CompilerResultsLog: Total build time: 14.62 seconds (Parallel executor: 13.19 seconds)
+[2018.10.16-03.16.17:701][531]LogMainFrame: MainFrame: Module compiling took 14.905 seconds
+[2018.10.16-03.16.17:759][531]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.16.17:763][531]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.16.18:078][531]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.16.18:078][531]Display: HotReload took 15.3s.
+[2018.10.16-03.16.21:080][891]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.16.21:097][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.16.21:097][891]PIE: New page: PIE session: Main (16 Oct 2018 05:16:21)
+[2018.10.16-03.16.21:097][891]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.16.21:119][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022353s)
+[2018.10.16-03.16.21:120][891]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.16.21:120][891]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2018.10.16-03.16.21:120][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023155s)
+[2018.10.16-03.16.21:183][891]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.16.21:191][891]LogInit: FAudioDevice initialized.
+[2018.10.16-03.16.21:223][891]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.16.21:225][891]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.16.21
+[2018.10.16-03.16.21:226][891]LogWorld: Bringing up level for play took: 0.001616
+[2018.10.16-03.16.21:238][891]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.745
+[2018.10.16-03.16.28:907][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.16.28:943][810]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.16.28:982][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.16.29:011][811]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.10.16-03.16.41:254][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.16.41:300][222]Candidate modules for hot reload:
+[2018.10.16-03.16.41:300][222]  EscapeFromWally
+[2018.10.16-03.16.41:300][222]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,6799 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.16.41:306][222]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:16:56
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-6799.lib
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6799.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6799.exp
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-6799.dll
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6799.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6799.suppressed.exp
+[2018.10.16-03.16.56:135][  0]CompilerResultsLog: Total build time: 14.58 seconds (Parallel executor: 13.19 seconds)
+[2018.10.16-03.16.56:135][  0]LogMainFrame: MainFrame: Module compiling took 14.851 seconds
+[2018.10.16-03.16.56:192][  0]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.16.56:196][  0]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.16.56:503][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.16.56:503][  0]Display: HotReload took 15.2s.
+[2018.10.16-03.16.58:815][277]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.16.58:832][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.16.58:832][277]PIE: New page: PIE session: Main (16 Oct 2018 05:16:58)
+[2018.10.16-03.16.58:832][277]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.16.58:854][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022658s)
+[2018.10.16-03.16.58:855][277]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.16.58:855][277]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2018.10.16-03.16.58:855][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023567s)
+[2018.10.16-03.16.58:924][277]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.16.58:933][277]LogInit: FAudioDevice initialized.
+[2018.10.16-03.16.58:964][277]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.16.58:966][277]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.16.58
+[2018.10.16-03.16.58:966][277]LogWorld: Bringing up level for play took: 0.001489
+[2018.10.16-03.16.58:979][277]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.996
+[2018.10.16-03.17.08:899][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.17.08:934][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.17.08:972][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.17.09:002][467]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.10.16-03.20.46:920][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.23.04:062][503]Candidate modules for hot reload:
+[2018.10.16-03.23.04:062][503]  EscapeFromWally
+[2018.10.16-03.23.04:062][503]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,6751 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.23.04:069][503]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.23.18:941][286]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:23:18
+[2018.10.16-03.23.18:942][286]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.23.18:942][286]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.23.18:942][286]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.23.18:942][286]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-03.23.18:942][286]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-6751.lib
+[2018.10.16-03.23.18:942][286]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6751.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6751.exp
+[2018.10.16-03.23.18:942][286]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-6751.dll
+[2018.10.16-03.23.18:942][286]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6751.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-6751.suppressed.exp
+[2018.10.16-03.23.18:942][286]CompilerResultsLog: Total build time: 14.61 seconds (Parallel executor: 13.17 seconds)
+[2018.10.16-03.23.18:942][286]LogMainFrame: MainFrame: Module compiling took 14.896 seconds
+[2018.10.16-03.23.19:003][286]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2018.10.16-03.23.19:399][286]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.23.19:402][286]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.23.19:721][286]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.23.19:721][286]Display: HotReload took 15.7s.
+[2018.10.16-03.23.27:017][ 69]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.16-03.23.27:063][ 70]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeFromWally
+[2018.10.16-03.23.27:064][ 70]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.16-03.23.27:064][ 70]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.16-03.23.27:064][ 70]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.16-03.23.27:064][ 70]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.16-03.23.27:084][ 71]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.16-03.23.57:398][307]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.16-03.24.05:703][764]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.16-03.24.14:321][520]Candidate modules for hot reload:
+[2018.10.16-03.24.14:321][520]  EscapeFromWally
+[2018.10.16-03.24.14:321][520]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,3870 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.24.14:327][520]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.24.19:432][131]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:24:19
+[2018.10.16-03.24.19:433][131]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.24.19:433][131]CompilerResultsLog: Creating makefile for hot reloading EscapeFromWallyEditor (ini files are newer than UBTMakefile)
+[2018.10.16-03.24.19:433][131]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.24.19:433][131]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.16-03.24.19:433][131]CompilerResultsLog: Target is up to date
+[2018.10.16-03.24.19:433][131]CompilerResultsLog: Total build time: 4.85 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.16-03.24.19:433][131]LogMainFrame: MainFrame: Module compiling took 5.127 seconds
+[2018.10.16-03.24.19:687][131]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.24.19:687][131]Display: HotReload took  5.4s.
+[2018.10.16-03.24.43:296][906]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.16-03.24.50:076][194]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.16-03.24.56:299][776]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.16-03.24.56:313][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.16-03.24.56:379][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.16-03.24.56:440][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.16-03.25.10:043][209]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.16-03.25.27:123][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCharacter.Bp_PlayerCharacter
+[2018.10.16-03.25.29:954][547]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCharacter3.Bp_PlayerCharacter3
+[2018.10.16-03.25.33:440][910]LogSlate: Window 'Bp_PlayerCharacter3' being destroyed
+[2018.10.16-03.25.34:424][ 20]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCharacter3.Bp_PlayerCharacter3
+[2018.10.16-03.25.38:100][400]LogSlate: Window 'Bp_PlayerCharacter3' being destroyed
+[2018.10.16-03.25.42:461][916]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_PlayerCharacterD6C1CF684BE42E62D45A7D96425A254D.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_PlayerCharacter.uasset'
+[2018.10.16-03.25.58:798][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.26.22:913][711]BlueprintLog: New page: Compile Bp_PlayerCharacter
+[2018.10.16-03.26.23:977][812]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_PlayerCharacter1DCD72364BDCB2C0D4116485EFE4CFC0.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_PlayerCharacter.uasset'
+[2018.10.16-03.26.29:616][479]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_efwGameMode.Bp_efwGameMode
+[2018.10.16-03.26.31:456][670]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.16-03.26.35:832][192]BlueprintLog: New page: Compile Bp_efwGameMode
+[2018.10.16-03.26.36:536][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_efwGameMode" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_efwGameMode.uasset" SILENT=true
+[2018.10.16-03.26.36:547][259]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_efwGameModeB9883DEF443DB44EE5CFFAB6AEE267EB.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_efwGameMode.uasset'
+[2018.10.16-03.26.41:340][827]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.26.41:352][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.26.41:353][827]PIE: New page: PIE session: Main (16 Oct 2018 05:26:41)
+[2018.10.16-03.26.41:353][827]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.26.41:374][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021371s)
+[2018.10.16-03.26.41:375][827]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.26.41:375][827]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2018.10.16-03.26.41:375][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022154s)
+[2018.10.16-03.26.41:411][827]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.26.41:419][827]LogInit: FAudioDevice initialized.
+[2018.10.16-03.26.41:452][827]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.26.41:454][827]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.26.41
+[2018.10.16-03.26.41:455][827]LogWorld: Bringing up level for play took: 0.001608
+[2018.10.16-03.26.41:467][827]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.516
+[2018.10.16-03.26.51:009][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.26.51:045][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.26.51:074][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.26.51:110][974]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.10.16-03.26.53:957][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.26.54:076][320]Candidate modules for hot reload:
+[2018.10.16-03.26.54:076][320]  EscapeFromWally
+[2018.10.16-03.26.54:076][320]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,523 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.26.54:082][320]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.26.55:714][516]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:26:55
+[2018.10.16-03.26.55:714][516]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.26.55:714][516]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.26.55:714][516]CompilerResultsLog: Target is up to date
+[2018.10.16-03.26.55:714][516]CompilerResultsLog: Total build time: 1.39 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.16-03.26.55:714][516]LogMainFrame: MainFrame: Module compiling took 1.653 seconds
+[2018.10.16-03.26.55:966][516]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.26.55:966][516]Display: HotReload took  1.9s.
+[2018.10.16-03.26.57:817][738]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.26.57:829][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.26.57:829][738]PIE: New page: PIE session: Main (16 Oct 2018 05:26:57)
+[2018.10.16-03.26.57:829][738]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.26.57:849][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019728s)
+[2018.10.16-03.26.57:849][738]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.26.57:849][738]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2018.10.16-03.26.57:849][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.020413s)
+[2018.10.16-03.26.57:899][738]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.26.57:906][738]LogInit: FAudioDevice initialized.
+[2018.10.16-03.26.57:934][738]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.26.57:936][738]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.26.57
+[2018.10.16-03.26.57:937][738]LogWorld: Bringing up level for play took: 0.001671
+[2018.10.16-03.26.57:949][738]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.034
+[2018.10.16-03.27.16:998][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.27.17:033][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.27.17:065][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.27.17:103][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.10.16-03.27.19:631][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.27.19:870][345]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_efwGameMode.Bp_efwGameMode
+[2018.10.16-03.28.04:985][617]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.16-03.28.05:027][618]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeFromWally
+[2018.10.16-03.28.05:028][618]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.16-03.28.05:028][618]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.16-03.28.05:028][618]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.16-03.28.05:028][618]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.16-03.28.05:052][621]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.16-03.29.34:481][748]Candidate modules for hot reload:
+[2018.10.16-03.29.34:481][748]  EscapeFromWally
+[2018.10.16-03.29.34:481][748]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,2875 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.29.34:487][748]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.29.52:578][909]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:29:52
+[2018.10.16-03.29.52:578][909]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.29.52:578][909]CompilerResultsLog: Creating makefile for hot reloading EscapeFromWallyEditor (ini files are newer than UBTMakefile)
+[2018.10.16-03.29.52:578][909]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.29.52:578][909]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.16-03.29.52:578][909]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.29.52:578][909]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-03.29.52:578][909]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-2875.lib
+[2018.10.16-03.29.52:579][909]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2875.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2875.exp
+[2018.10.16-03.29.52:579][909]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-2875.dll
+[2018.10.16-03.29.52:579][909]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2875.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-2875.suppressed.exp
+[2018.10.16-03.29.52:579][909]CompilerResultsLog: Total build time: 17.85 seconds (Parallel executor: 13.28 seconds)
+[2018.10.16-03.29.52:579][909]LogMainFrame: MainFrame: Module compiling took 18.115 seconds
+[2018.10.16-03.29.52:638][909]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.29.52:642][909]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.29.52:948][909]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.29.52:948][909]Display: HotReload took 18.5s.
+[2018.10.16-03.29.55:583][225]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.29.55:596][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.29.55:597][225]PIE: New page: PIE session: Main (16 Oct 2018 05:29:55)
+[2018.10.16-03.29.55:597][225]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.29.55:618][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020972s)
+[2018.10.16-03.29.55:618][225]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.29.55:619][225]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2018.10.16-03.29.55:619][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.021774s)
+[2018.10.16-03.29.55:685][225]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.29.55:693][225]LogInit: FAudioDevice initialized.
+[2018.10.16-03.29.55:721][225]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.29.55:723][225]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.29.55
+[2018.10.16-03.29.55:723][225]LogWorld: Bringing up level for play took: 0.001665
+[2018.10.16-03.29.55:736][225]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.247
+[2018.10.16-03.30.03:153][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.30.03:188][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.30.03:227][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.30.03:259][115]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.10.16-03.30.56:285][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.30.56:501][576]Candidate modules for hot reload:
+[2018.10.16-03.30.56:501][576]  EscapeFromWally
+[2018.10.16-03.30.56:501][576]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,9416 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.30.56:507][576]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.31.11:612][373]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:31:11
+[2018.10.16-03.31.11:612][373]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.31.11:612][373]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.31.11:612][373]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.31.11:612][373]CompilerResultsLog:   [1/3] PlayerCharacter.cpp
+[2018.10.16-03.31.11:612][373]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-9416.lib
+[2018.10.16-03.31.11:612][373]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9416.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9416.exp
+[2018.10.16-03.31.11:612][373]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-9416.dll
+[2018.10.16-03.31.11:613][373]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9416.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9416.suppressed.exp
+[2018.10.16-03.31.11:613][373]CompilerResultsLog: Total build time: 14.81 seconds (Parallel executor: 13.32 seconds)
+[2018.10.16-03.31.11:613][373]LogMainFrame: MainFrame: Module compiling took 15.125 seconds
+[2018.10.16-03.31.11:669][373]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.31.11:673][373]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.31.11:979][373]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.31.11:979][373]Display: HotReload took 15.5s.
+[2018.10.16-03.31.15:040][740]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.31.15:054][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.31.15:055][740]PIE: New page: PIE session: Main (16 Oct 2018 05:31:15)
+[2018.10.16-03.31.15:055][740]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.31.15:076][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021121s)
+[2018.10.16-03.31.15:076][740]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.31.15:077][740]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2018.10.16-03.31.15:077][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.021934s)
+[2018.10.16-03.31.15:142][740]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.31.15:151][740]LogInit: FAudioDevice initialized.
+[2018.10.16-03.31.15:182][740]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.31.15:183][740]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.31.15
+[2018.10.16-03.31.15:184][740]LogWorld: Bringing up level for play took: 0.001562
+[2018.10.16-03.31.15:196][740]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.787
+[2018.10.16-03.31.25:396][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.31.25:429][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.31.25:464][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.31.25:500][965]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.10.16-03.32.07:902][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.32.08:034][492]Candidate modules for hot reload:
+[2018.10.16-03.32.08:034][492]  EscapeFromWally
+[2018.10.16-03.32.08:034][492]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,3676 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.32.08:040][492]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.32.23:495][341]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:32:23
+[2018.10.16-03.32.23:495][341]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.32.23:496][341]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.32.23:496][341]CompilerResultsLog: Building 4 actions with 4 processes...
+[2018.10.16-03.32.23:496][341]CompilerResultsLog:   [1/4] Door.cpp
+[2018.10.16-03.32.23:496][341]CompilerResultsLog:   [2/4] PlayerCharacter.cpp
+[2018.10.16-03.32.23:496][341]CompilerResultsLog:   [3/4] UE4Editor-EscapeFromWally-3676.lib
+[2018.10.16-03.32.23:496][341]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3676.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3676.exp
+[2018.10.16-03.32.23:496][341]CompilerResultsLog:   [4/4] UE4Editor-EscapeFromWally-3676.dll
+[2018.10.16-03.32.23:496][341]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3676.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-3676.suppressed.exp
+[2018.10.16-03.32.23:496][341]CompilerResultsLog: Total build time: 15.20 seconds (Parallel executor: 13.78 seconds)
+[2018.10.16-03.32.23:496][341]LogMainFrame: MainFrame: Module compiling took 15.476 seconds
+[2018.10.16-03.32.23:552][341]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.32.23:556][341]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.32.23:860][341]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.32.23:860][341]Display: HotReload took 15.8s.
+[2018.10.16-03.32.28:554][904]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.16-03.32.28:570][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-03.32.28:570][904]PIE: New page: PIE session: Main (16 Oct 2018 05:32:28)
+[2018.10.16-03.32.28:570][904]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.16-03.32.28:591][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021595s)
+[2018.10.16-03.32.28:592][904]LogAIModule: Creating AISystem for world Main
+[2018.10.16-03.32.28:592][904]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2018.10.16-03.32.28:592][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.022378s)
+[2018.10.16-03.32.28:657][904]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-03.32.28:665][904]LogInit: FAudioDevice initialized.
+[2018.10.16-03.32.28:694][904]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.16-03.32.28:696][904]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.16-04.32.28
+[2018.10.16-03.32.28:697][904]LogWorld: Bringing up level for play took: 0.001694
+[2018.10.16-03.32.28:709][904]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.726
+[2018.10.16-03.32.33:395][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.32.33:426][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-03.32.33:464][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-03.32.33:500][467]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.10.16-03.34.12:824][755]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-03.34.12:930][755]Candidate modules for hot reload:
+[2018.10.16-03.34.12:930][755]  EscapeFromWally
+[2018.10.16-03.34.12:930][755]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,8095 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.16-03.34.12:936][755]Warning: Starting HotReload took  0.0s.
+[2018.10.16-03.34.17:459][284]CompilerResultsLog: New page: Compilation - 16 Oct 2018 05:34:17
+[2018.10.16-03.34.17:459][284]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.16-03.34.17:460][284]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.16-03.34.17:460][284]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.16-03.34.17:460][284]CompilerResultsLog:   [1/3] Door.cpp
+[2018.10.16-03.34.17:460][284]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-8095.lib
+[2018.10.16-03.34.17:460][284]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-8095.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-8095.exp
+[2018.10.16-03.34.17:460][284]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-8095.dll
+[2018.10.16-03.34.17:460][284]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-8095.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-8095.suppressed.exp
+[2018.10.16-03.34.17:460][284]CompilerResultsLog: Total build time: 4.23 seconds (Parallel executor: 2.80 seconds)
+[2018.10.16-03.34.17:460][284]LogMainFrame: MainFrame: Module compiling took 4.543 seconds
+[2018.10.16-03.34.17:512][284]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.10.16-03.34.17:516][284]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.10.16-03.34.17:830][284]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2577 classes and 607 folders.
+[2018.10.16-03.34.17:830][284]Display: HotReload took  4.9s.
+[2018.10.16-03.34.30:086][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.16-03.34.30:141][621]LogSlate: Window 'EscapeFromWally - Unreal Editor' being destroyed
+[2018.10.16-03.34.30:142][621]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.16-03.34.30:312][622]Cmd: QUIT_EDITOR
+[2018.10.16-03.34.31:020][622]LogExit: Preparing to exit.
+[2018.10.16-03.34.31:552][622]LogExit: Editor shut down
+[2018.10.16-03.34.31:552][622]LogExit: Transaction tracking system shut down
+[2018.10.16-03.34.31:936][622]LogExit: Object subsystem successfully closed.
+[2018.10.16-03.34.31:960][622]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.16-03.34.31:963][622]LogD3D11RHI: Shutdown
+[2018.10.16-03.34.31:963][622]LogD3D11RHI: CleanupD3DDevice
+[2018.10.16-03.34.31:968][622]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.16-03.34.32:013][622]LogModuleManager: Shutting down and abandoning module EscapeFromWally (643)
+[2018.10.16-03.34.32:013][622]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (635)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (633)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (626)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module BlueprintGraph (623)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module MeshBuilder (614)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.10.16-03.34.32:014][622]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2018.10.16-03.34.32:015][622]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2018.10.16-03.34.32:015][622]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2018.10.16-03.34.32:015][622]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2018.10.16-03.34.32:016][622]LogModuleManager: Shutting down and abandoning module SceneOutliner (602)
+[2018.10.16-03.34.32:016][622]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.10.16-03.34.32:016][622]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.10.16-03.34.32:017][622]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.10.16-03.34.32:018][622]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.10.16-03.34.32:019][622]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.10.16-03.34.32:019][622]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.10.16-03.34.32:019][622]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.10.16-03.34.32:019][622]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.10.16-03.34.32:019][622]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.10.16-03.34.32:019][622]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.10.16-03.34.32:021][622]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.10.16-03.34.32:021][622]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.10.16-03.34.32:023][622]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.10.16-03.34.32:023][622]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.10.16-03.34.32:023][622]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.10.16-03.34.32:024][622]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.10.16-03.34.32:025][622]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.10.16-03.34.32:027][622]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.10.16-03.34.32:028][622]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.10.16-03.34.32:029][622]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.10.16-03.34.32:029][622]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.10.16-03.34.32:029][622]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.10.16-03.34.32:029][622]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.10.16-03.34.32:029][622]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.10.16-03.34.32:029][622]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.10.16-03.34.32:926][622]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.10.16-03.34.32:926][622]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.10.16-03.34.32:926][622]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.10.16-03.34.32:926][622]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.10.16-03.34.32:926][622]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.10.16-03.34.32:932][622]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.10.16-03.34.32:932][622]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.10.16-03.34.32:933][622]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.10.16-03.34.32:933][622]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.10.16-03.34.32:933][622]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.10.16-03.34.32:933][622]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.10.16-03.34.32:934][622]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.10.16-03.34.32:934][622]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.10.16-03.34.32:934][622]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.10.16-03.34.32:934][622]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.10.16-03.34.32:934][622]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.10.16-03.34.32:934][622]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.10.16-03.34.32:935][622]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.10.16-03.34.32:936][622]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.10.16-03.34.32:936][622]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.10.16-03.34.32:936][622]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.10.16-03.34.32:937][622]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.10.16-03.34.32:992][622]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.10.16-03.34.32:994][622]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.10.16-03.34.32:996][622]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.10.16-03.34.32:998][622]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.10.16-03.34.32:998][622]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.10.16-03.34.32:999][622]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.10.16-03.34.32:999][622]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.10.16-03.34.33:001][622]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.10.16-03.34.33:001][622]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.10.16-03.34.33:002][622]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.10.16-03.34.33:026][622]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.10.16-03.34.33:026][622]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.10.16-03.34.33:028][622]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.10.16-03.34.33:028][622]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.10.16-03.34.33:028][622]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.16-03.34.33:028][622]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.16-03.34.33:029][622]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.16-03.34.33:029][622]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.16-03.34.33:030][622]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.16-03.34.33:030][622]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.16-03.34.33:030][622]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.16-03.34.33:030][622]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.16-03.34.33:031][622]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.16-03.34.33:032][622]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.16-03.34.33:032][622]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.16-03.34.33:032][622]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.10.16-03.34.33:261][622]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.10.16-03.34.33:263][622]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.10.16-03.34.33:263][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.10.16-03.34.33:263][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.10.16-03.34.33:264][622]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.10.16-03.34.33:264][622]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.10.16-03.34.33:264][622]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.10.16-03.34.33:264][622]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.10.16-03.34.33:264][622]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.10.16-03.34.33:264][622]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.10.16-03.34.33:265][622]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.10.16-03.34.33:265][622]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.10.16-03.34.33:265][622]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.10.16-03.34.33:265][622]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.10.16-03.34.33:267][622]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.10.16-03.34.33:267][622]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.10.16-03.34.33:267][622]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.10.16-03.34.33:267][622]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.10.16-03.34.33:271][622]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.10.16-03.34.33:271][622]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.10.16-03.34.33:271][622]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.10.16-03.34.33:271][622]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.10.16-03.34.33:272][622]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.10.16-03.34.33:273][622]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.10.16-03.34.33:273][622]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.10.16-03.34.33:276][622]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.10.16-03.34.33:276][622]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.10.16-03.34.33:276][622]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.10.16-03.34.33:277][622]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.10.16-03.34.33:277][622]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.10.16-03.34.33:277][622]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.10.16-03.34.33:277][622]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.10.16-03.34.33:277][622]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.10.16-03.34.33:277][622]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.10.16-03.34.33:278][622]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.10.16-03.34.33:279][622]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.10.16-03.34.33:280][622]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.10.16-03.34.33:281][622]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.10.16-03.34.33:281][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.10.16-03.34.33:281][622]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.10.16-03.34.33:281][622]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.10.16-03.34.33:281][622]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.10.16-03.34.33:282][622]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.10.16-03.34.33:282][622]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.16-03.34.33:282][622]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.16-03.34.33:282][622]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.16-03.34.33:282][622]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.16-03.34.33:283][622]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.16-03.34.33:283][622]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.16-03.34.33:283][622]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.16-03.34.33:283][622]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.16-03.34.33:283][622]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.16-03.34.33:385][622]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.16-03.34.33:488][622]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.16-03.34.33:488][622]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.16-03.34.33:489][622]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.16-03.34.33:489][622]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.16-03.34.33:489][622]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.16-03.34.33:489][622]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.16-03.34.33:490][622]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.16-03.34.33:492][622]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.16-03.34.33:492][622]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.16-03.34.33:492][622]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.16-03.34.33:492][622]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.16-03.34.33:493][622]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.16-03.34.33:494][622]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.16-03.34.33:494][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.16-03.34.33:494][622]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.16-03.34.33:494][622]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.16-03.34.33:495][622]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.16-03.34.33:495][622]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.16-03.34.33:496][622]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.16-03.34.33:503][622]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.16-03.34.33:503][622]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.16-03.34.33:503][622]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.16-03.34.33:504][622]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.16-03.34.33:504][622]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.16-03.34.33:504][622]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.16-03.34.33:504][622]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.16-03.34.33:504][622]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.16-03.34.33:505][622]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.16-03.34.33:505][622]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.16-03.34.33:506][622]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.16-03.34.33:506][622]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.16-03.34.33:507][622]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.16-03.34.33:507][622]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.16-03.34.33:508][622]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.16-03.34.33:509][622]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.16-03.34.33:510][622]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.16-03.34.33:510][622]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.16-03.34.33:512][622]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.16-03.34.33:512][622]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.16-03.34.33:514][622]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.16-03.34.33:515][622]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.16-03.34.33:516][622]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.16-03.34.33:516][622]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.16-03.34.33:516][622]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.16-03.34.33:517][622]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.16-03.34.33:517][622]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.16-03.34.33:517][622]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.16-03.34.33:518][622]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.16-03.34.33:518][622]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.16-03.34.33:600][622]LogDerivedDataCache: Shutdown
+[2018.10.16-03.34.33:600][622]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.16-03.34.33:600][622]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.16-03.34.33:603][622]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.16-03.34.33:603][622]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.16-03.34.33:604][622]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.16-03.34.33:605][622]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.16-03.34.33:605][622]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.16-03.34.33:605][622]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.16-03.34.33:606][622]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.16-03.34.33:606][622]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.16-03.34.33:606][622]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.16-03.34.33:607][622]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.16-03.34.33:607][622]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.16-03.34.33:608][622]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.16-03.34.33:609][622]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.16-03.34.33:609][622]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.16-03.34.33:611][622]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.16-03.34.33:611][622]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.16-03.34.33:613][622]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.16-03.34.33:613][622]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.16-03.34.33:628][622]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.16-03.34.33:629][622]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.16-03.34.33:631][622]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.16-03.34.33:632][622]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.16-03.34.33:658][622]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.16-03.34.33:659][622]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.16-03.34.33:659][622]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10684CEF-400F-E324-CEB0-B0A054EA5B0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5fdfb9eb4a3af766a039a8b9b40f75dc%7C75455451a11a4e86936f96d58b7d0fbf%7C0157599c-15ed-48c0-9aab-018aec8adfe9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.16-03.34.33:673][622]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.16-03.34.33:674][622]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.16-03.34.33:675][622]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.16-03.34.33:675][622]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.16-03.34.33:675][622]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.16-03.34.33:675][622]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.16-03.34.33:677][622]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.16-03.34.33:677][622]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.16-03.34.33:678][622]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.16-03.34.33:680][622]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.16-03.34.33:680][622]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.16-03.34.33:680][622]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.16-03.34.33:681][622]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.16-03.34.33:681][622]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.16-03.34.33:681][622]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.16-03.34.33:682][622]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.16-03.34.33:686][622]LogExit: Exiting.
+[2018.10.16-03.34.33:698][622]Log file closed, 10/16/18 04:34:33

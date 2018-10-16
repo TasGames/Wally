@@ -30,6 +30,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION()
+	void ToggleDoor(FVector ForwardVector);
+
 protected:
 
 	UFUNCTION()
@@ -37,9 +40,6 @@ protected:
 
 	UFUNCTION()
 	void OpenDoor(float DeltaTime);
-
-	UFUNCTION()
-	void ToggleDoor(FVector ForwardVector);
 
 	bool Opening;
 	bool Closing;
