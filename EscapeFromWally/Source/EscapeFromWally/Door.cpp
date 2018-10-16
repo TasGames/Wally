@@ -54,7 +54,7 @@ void ADoor::Tick(float DeltaTime)
 
 }
 
-void ADoor::CloseDoor(float DeltaTime)
+void ADoor::OpenDoor(float DeltaTime)
 {
 	CurrentRot = Door->RelativeRotation.Yaw;
 
@@ -72,7 +72,7 @@ void ADoor::CloseDoor(float DeltaTime)
 	}
 }
 
-void ADoor::OpenDoor(float DeltaTime)
+void ADoor::CloseDoor(float DeltaTime)
 {
 	CurrentRot = Door->RelativeRotation.Yaw;
 
@@ -117,8 +117,6 @@ void ADoor::ToggleDoor(FVector ForwardVector)
 		ItClosed = true;
 		Closing = true;
 	}
-
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "debug msg");
 
 }
 
