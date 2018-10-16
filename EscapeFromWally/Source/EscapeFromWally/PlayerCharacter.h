@@ -17,7 +17,7 @@ class ESCAPEFROMWALLY_API APlayerCharacter : public ACharacter
 
 	//Torch Mesh
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-		class UStaticMeshComponent* FP_Torch;
+	class UStaticMeshComponent* FP_Torch;
 
 	//Spot Light
 	UPROPERTY(VisibleDefaultsOnly, Category = Light)
@@ -58,9 +58,9 @@ public:
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		int ValueCollected;
+	int ValueCollected;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool TorchOn;
+	bool TorchOn;
 	
 };

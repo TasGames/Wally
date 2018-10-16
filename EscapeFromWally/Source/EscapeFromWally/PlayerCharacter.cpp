@@ -6,6 +6,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/SpotLightComponent.h"
+#include "Door.h"
 #include "GameFramework/InputSettings.h"
 
 // Sets default values
