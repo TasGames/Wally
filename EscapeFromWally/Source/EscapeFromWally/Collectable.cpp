@@ -10,7 +10,7 @@ ACollectable::ACollectable()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	collisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("collisionComponent"));
+	collisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComponent"));
 	RootComponent = collisionComponent;
 	collisionComponent->SetCollisionProfileName(TEXT("OverlapAll"));
 	collisionComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
