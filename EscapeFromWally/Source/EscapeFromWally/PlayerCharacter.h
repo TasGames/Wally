@@ -27,6 +27,11 @@ class ESCAPEFROMWALLY_API APlayerCharacter : public ACharacter
 	UPROPERTY(VisibleDefaultsOnly, Category = Light)
 	class USpotLightComponent* SpotLight;
 
+	//Which Door
+	class ADoor* CurrentDoor;
+
+	bool TorchOn;
+
 public:
 	//Sets default values for this character's properties
 	APlayerCharacter();
@@ -39,13 +44,8 @@ public:
 	UFUNCTION()
 	void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	class ADoor* CurrentDoor;
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	int ValueCollected;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	bool TorchOn;
+	int HowMany;
 
 protected:
 
@@ -57,11 +57,5 @@ protected:
 
 	//Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-public:
-	//Returns FP_Torch subobject
-	//FORCEINLINE class UStaticMeshComponent* GetTorchMesh() const { return FP_Torch; }
-	//Returns FirstPersonCameraComponent subobject 
-	//FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 	
 };

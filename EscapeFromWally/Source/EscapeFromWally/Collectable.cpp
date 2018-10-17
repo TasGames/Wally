@@ -3,33 +3,17 @@
 #include "Collectable.h"
 #include "PlayerCharacter.h"
 
-
 // Sets default values
 ACollectable::ACollectable()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	CollisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComponent"));
+	RootComponent = CollisionComponent;
+	CollisionComponent->SetCollisionProfileName(TEXT("OverlapAll"));
+	CollisionComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	CollisionComponent->OnComponentBeginOverlap.AddDynamic(this, &ACollectable::OnBeginOverlap);
 
-	collisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComponent"));
-	RootComponent = collisionComponent;
-	collisionComponent->SetCollisionProfileName(TEXT("OverlapAll"));
-	collisionComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	collisionComponent->OnComponentBeginOverlap.AddDynamic(this, &ACollectable::OnBeginOverlap);
-	value = 1;
-}
-
-// Called when the game starts or when spawned
-void ACollectable::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void ACollectable::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
+	//Create a mesh component 
+	CollectMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CollectMesh"));
 }
 
 void ACollectable::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -37,10 +21,10 @@ void ACollectable::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor *
 	if (OtherActor != this)
 	{
 		APlayerCharacter *p = Cast<APlayerCharacter>(OtherActor);
-		if (p)
+		if (p != NULL)
 		{
-			Destroy();	//kill this collectable
-			p->ValueCollected += value;
+			Destroy();	
+			p->HowMany += 1;
 		}
 	}
 }

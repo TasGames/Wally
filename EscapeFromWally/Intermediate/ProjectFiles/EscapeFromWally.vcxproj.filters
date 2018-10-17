@@ -1,70 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\EscapeFromWally.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{ACAC450E-140B-4CF7-8454-BB088BF0CCC0}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\EscapeFromWally.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\EscapeFromWallyEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{BE70329B-1B3C-4EDA-BFE2-FBD9DC19FA18}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\EscapeFromWally">
-      <UniqueIdentifier>{60B5DCDE-071C-4799-8CA1-38DC0146FA3B}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\EscapeFromWally\Collectable.cpp">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeFromWally\Collectable.h">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\EscapeFromWally\EscapeFromWally.Build.cs">
-      <Filter>Source\EscapeFromWally</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\EscapeFromWally\EscapeFromWally.cpp">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeFromWally\EscapeFromWally.h">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeFromWally\EscapeFromWallyGameModeBase.cpp">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeFromWally\EscapeFromWallyGameModeBase.h">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeFromWally\PlayerCharacter.cpp">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeFromWally\PlayerCharacter.h">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\EscapeFromWally\Door.h">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\EscapeFromWally\Door.cpp">
-      <Filter>Source\EscapeFromWally</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\EscapeFromWally.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{8B1AB36A-C973-4321-82C1-8BCDB782F078}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EscapeFromWally.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\EscapeFromWallyEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{95444C81-DFAA-4890-9304-448C0CE7E61F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\EscapeFromWally">
+			<UniqueIdentifier>{FAD20146-3730-4F4A-8BBA-288D0945C75D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\EscapeFromWally\Collectable.cpp">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeFromWally\Collectable.h">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EscapeFromWally\Door.cpp">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeFromWally\Door.h">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\EscapeFromWally\EscapeFromWally.Build.cs">
+			<Filter>Source\EscapeFromWally</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\EscapeFromWally\EscapeFromWally.cpp">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeFromWally\EscapeFromWally.h">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EscapeFromWally\EscapeFromWallyGameModeBase.cpp">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeFromWally\EscapeFromWallyGameModeBase.h">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EscapeFromWally\PlayerCharacter.cpp">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeFromWally\PlayerCharacter.h">
+			<Filter>Source\EscapeFromWally</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

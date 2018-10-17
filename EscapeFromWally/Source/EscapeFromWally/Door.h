@@ -17,16 +17,10 @@ class ESCAPEFROMWALLY_API ADoor : public AActor
 	UPROPERTY(VisibleAnywhere, Category = Box)
 	class UBoxComponent* BoxComponent;
 
-
 public:	
 	// Sets default values for this actor's properties
 	ADoor();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -53,5 +47,4 @@ protected:
 	float AddRot;
 	float PosOrNeg;
 	float CurrentRot;
-	
 };

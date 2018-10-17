@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectable() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
 	void ACollectable::StaticRegisterNativesACollectable()
@@ -102,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectable() {}
 		{ "ModuleRelativePath", "Collectable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACollectable, "OnBeginOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00420401, sizeof(Collectable_eventOnBeginOverlap_Parms), Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACollectable, "OnBeginOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00480401, sizeof(Collectable_eventOnBeginOverlap_Parms), Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACollectable_OnBeginOverlap_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ACollectable_OnBeginOverlap()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -124,13 +125,13 @@ void EmptyLinkFunctionForGeneratedCodeCollectable() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_value_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CollectMesh_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollectMesh;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_collisionComponent_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CollisionComponent_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_collisionComponent;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollisionComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -140,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectable() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_EscapeFromWally,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACollectable_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACollectable_OnBeginOverlap, "OnBeginOverlap" }, // 1787928337
+		{ &Z_Construct_UFunction_ACollectable_OnBeginOverlap, "OnBeginOverlap" }, // 1927191027
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectable_Statics::Class_MetaDataParams[] = {
@@ -149,23 +150,26 @@ void EmptyLinkFunctionForGeneratedCodeCollectable() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectable_Statics::NewProp_value_MetaData[] = {
-		{ "Category", "Collectable" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectable_Statics::NewProp_CollectMesh_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Collectable.h" },
+		{ "ToolTip", "Collectable Mesh" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACollectable_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Int, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ACollectable, value), METADATA_PARAMS(Z_Construct_UClass_ACollectable_Statics::NewProp_value_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollectable_Statics::NewProp_value_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollectable_Statics::NewProp_CollectMesh = { UE4CodeGen_Private::EPropertyClass::Object, "CollectMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ACollectable, CollectMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollectable_Statics::NewProp_CollectMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollectable_Statics::NewProp_CollectMesh_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectable_Statics::NewProp_collisionComponent_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectable_Statics::NewProp_CollisionComponent_MetaData[] = {
 		{ "Category", "Collectable" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Collectable.h" },
+		{ "ToolTip", "Trigger Component" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollectable_Statics::NewProp_collisionComponent = { UE4CodeGen_Private::EPropertyClass::Object, "collisionComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ACollectable, collisionComponent), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollectable_Statics::NewProp_collisionComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollectable_Statics::NewProp_collisionComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollectable_Statics::NewProp_CollisionComponent = { UE4CodeGen_Private::EPropertyClass::Object, "CollisionComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ACollectable, CollisionComponent), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollectable_Statics::NewProp_CollisionComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollectable_Statics::NewProp_CollisionComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACollectable_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectable_Statics::NewProp_value,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectable_Statics::NewProp_collisionComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectable_Statics::NewProp_CollectMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectable_Statics::NewProp_CollisionComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACollectable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACollectable>::IsAbstract,
@@ -190,7 +194,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACollectable, 1993176506);
+	IMPLEMENT_CLASS(ACollectable, 2594795521);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACollectable(Z_Construct_UClass_ACollectable, &ACollectable::StaticClass, TEXT("/Script/EscapeFromWally"), TEXT("ACollectable"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACollectable);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

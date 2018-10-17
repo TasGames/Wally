@@ -46,7 +46,7 @@ APlayerCharacter::APlayerCharacter()
 	TriggerCapsule->OnComponentEndOverlap.AddDynamic(this, &APlayerCharacter::OnOverlapEnd);
 
 	//Initialize variables
-	ValueCollected = 0;
+	HowMany = 0;
 	TorchOn = true;
 	CurrentDoor = NULL;
 }

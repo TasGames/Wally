@@ -32,13 +32,6 @@ ADoor::ADoor()
 	CurrentRot = 0.0f;
 }
 
-// Called when the game starts or when spawned
-void ADoor::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
 // Called every frame
 void ADoor::Tick(float DeltaTime)
 {
@@ -51,7 +44,6 @@ void ADoor::Tick(float DeltaTime)
 	// Checking if it is closing
 	if (Closing == true)
 		CloseDoor(DeltaTime);
-
 }
 
 void ADoor::OpenDoor(float DeltaTime)
@@ -117,6 +109,4 @@ void ADoor::ToggleDoor(FVector ForwardVector)
 		ItClosed = true;
 		Closing = true;
 	}
-
 }
-
