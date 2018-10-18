@@ -30,25 +30,22 @@ void AVictory::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	/*if (p->HowMany == Required)
-	{
-		LockedMesh->SetVisibility(false);
-		OpenMesh->SetVisibility(true);
-	}*/
 }
 
 void AVictory::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	if (OtherActor != this)
 	{
-		APlayerCharacter* p = Cast<APlayerCharacter>(OtherActor);
-		if (p != NULL)
+		APlayerCharacter* P = Cast<APlayerCharacter>(OtherActor);
+		if (P != NULL)
 		{
-			if (p->HowMany == Required)
+			if (P->HowMany == Required)
 			{
-				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "debug msg");
-				GetWorld()->GetFirstPlayerController()->ConsoleCommand("quit");
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Open");
+				//GetWorld()->GetFirstPlayerController()->ConsoleCommand("quit");
 			}
+			else
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Locked");
 		}
 	}
 }

@@ -14,6 +14,13 @@ class ESCAPEFROMWALLY_API AVictory : public AActor
 	UPROPERTY(VisibleAnywhere, Category = Box)
 	class UBoxComponent* VictoryBox;
 
+public:	
+	// Sets default values for this actor's properties
+	AVictory();
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* LockedMesh;
 
@@ -22,13 +29,6 @@ class ESCAPEFROMWALLY_API AVictory : public AActor
 
 	UPROPERTY(EditAnywhere)
 	int Required;
-
-public:	
-	// Sets default values for this actor's properties
-	AVictory();
-
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 protected:
 	

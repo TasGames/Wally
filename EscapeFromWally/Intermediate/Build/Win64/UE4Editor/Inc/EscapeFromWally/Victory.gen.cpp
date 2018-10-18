@@ -163,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 		{ "ModuleRelativePath", "Victory.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVictory_Statics::NewProp_Required = { UE4CodeGen_Private::EPropertyClass::Int, "Required", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AVictory, Required), METADATA_PARAMS(Z_Construct_UClass_AVictory_Statics::NewProp_Required_MetaData, ARRAY_COUNT(Z_Construct_UClass_AVictory_Statics::NewProp_Required_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVictory_Statics::NewProp_Required = { UE4CodeGen_Private::EPropertyClass::Int, "Required", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AVictory, Required), METADATA_PARAMS(Z_Construct_UClass_AVictory_Statics::NewProp_Required_MetaData, ARRAY_COUNT(Z_Construct_UClass_AVictory_Statics::NewProp_Required_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -171,7 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 		{ "ModuleRelativePath", "Victory.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh = { UE4CodeGen_Private::EPropertyClass::Object, "OpenMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AVictory, OpenMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh = { UE4CodeGen_Private::EPropertyClass::Object, "OpenMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(AVictory, OpenMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AVictory_Statics::NewProp_OpenMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -179,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 		{ "ModuleRelativePath", "Victory.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh = { UE4CodeGen_Private::EPropertyClass::Object, "LockedMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AVictory, LockedMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh = { UE4CodeGen_Private::EPropertyClass::Object, "LockedMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(AVictory, LockedMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AVictory_Statics::NewProp_LockedMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVictory_Statics::NewProp_VictoryBox_MetaData[] = {
 		{ "Category", "Box" },
@@ -217,7 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVictory, 3535197365);
+	IMPLEMENT_CLASS(AVictory, 4175170324);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AVictory(Z_Construct_UClass_AVictory, &AVictory::StaticClass, TEXT("/Script/EscapeFromWally"), TEXT("AVictory"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AVictory);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -93,10 +93,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVictory); \
 
 
 #define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__VictoryBox() { return STRUCT_OFFSET(AVictory, VictoryBox); } \
-	FORCEINLINE static uint32 __PPO__LockedMesh() { return STRUCT_OFFSET(AVictory, LockedMesh); } \
-	FORCEINLINE static uint32 __PPO__OpenMesh() { return STRUCT_OFFSET(AVictory, OpenMesh); } \
-	FORCEINLINE static uint32 __PPO__Required() { return STRUCT_OFFSET(AVictory, Required); }
+	FORCEINLINE static uint32 __PPO__VictoryBox() { return STRUCT_OFFSET(AVictory, VictoryBox); }
 
 
 #define EscapeFromWally_Source_EscapeFromWally_Victory_h_9_PROLOG

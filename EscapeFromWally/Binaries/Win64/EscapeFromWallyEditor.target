@@ -6,8 +6,8 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 20,
-		"PatchVersion": 3,
-		"Changelist": 4369336,
+		"PatchVersion": 1,
+		"Changelist": 4233996,
 		"CompatibleChangelist": 4212847,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeFromWally-8692.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeFromWally-2883.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeFromWally-8692.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-EscapeFromWally-2883.pdb",
 			"Type": "SymbolFile"
 		},
 		{

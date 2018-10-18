@@ -20,6 +20,7 @@ class ESCAPEFROMWALLY_API ACollectable : public AActor
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* CollectMesh;
 
+	UPROPERTY(EditAnywhere)
 	class AVictory* V;
 
 public:	
