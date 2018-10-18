@@ -92,7 +92,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACollectable); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACollectable)
 
 
-#define EscapeFromWally_Source_EscapeFromWally_Collectable_h_13_PRIVATE_PROPERTY_OFFSET
+#define EscapeFromWally_Source_EscapeFromWally_Collectable_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CollisionComponent() { return STRUCT_OFFSET(ACollectable, CollisionComponent); } \
+	FORCEINLINE static uint32 __PPO__CollectMesh() { return STRUCT_OFFSET(ACollectable, CollectMesh); }
+
+
 #define EscapeFromWally_Source_EscapeFromWally_Collectable_h_10_PROLOG
 #define EscapeFromWally_Source_EscapeFromWally_Collectable_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
