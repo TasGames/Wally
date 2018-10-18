@@ -1,24 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for EscapeFromWallyEditor (no existing makefile)
+  Creating makefile for hot reloading EscapeFromWallyEditor (modules to compile have changed)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for EscapeFromWallyEditor
-    Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeFromWallyEditor in 8.9882914 seconds
-  Building 13 actions with 4 processes...
-    [1/13] SharedPCH.Engine.cpp
-    [2/13] EscapeFromWally.cpp
-    [3/13] EscapeFromWallyGameModeBase.cpp
-    [4/13] Door.cpp
-    [5/13] Door.gen.cpp
-    [6/13] EscapeFromWally.init.gen.cpp
-    [7/13] EscapeFromWallyGameModeBase.gen.cpp
-    [8/13] PlayerCharacter.gen.cpp
-    [9/13] PlayerCharacter.cpp
-    [10/13] Collectable.gen.cpp
-    [11/13] Collectable.cpp
-    [12/13] UE4Editor-EscapeFromWally.lib
-       Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.exp
-    [13/13] UE4Editor-EscapeFromWally.dll
-       Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally.suppressed.exp
+  Target is up to date
   Deploying EscapeFromWallyEditor Win64 Development...
-  Total build time: 52.48 seconds (Parallel executor: 38.93 seconds)
+  Total build time: 4.32 seconds (NoActionsToExecute executor: 0.00 seconds)
