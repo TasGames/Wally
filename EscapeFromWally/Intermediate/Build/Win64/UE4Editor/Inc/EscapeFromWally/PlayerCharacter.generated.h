@@ -18,6 +18,14 @@ struct FHitResult;
 
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPauseIt) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PauseIt(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -46,6 +54,14 @@ struct FHitResult;
 
 
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPauseIt) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PauseIt(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \

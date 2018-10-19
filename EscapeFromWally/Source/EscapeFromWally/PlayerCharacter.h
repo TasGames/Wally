@@ -52,6 +52,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float TimeLimit;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool IsPaused;
+
+	UFUNCTION(BlueprintCallable)
+	void PauseIt();
+
 protected:
 
 	void MoveVer(float Val);

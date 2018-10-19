@@ -49,8 +49,9 @@ APlayerCharacter::APlayerCharacter()
 
 	//Initialize variables
 	HowMany = 0;
-	TimeLimit = 100000.0f;
+	TimeLimit = 30000.0f;
 	TorchOn = true;
+	IsPaused = false;
 	CurrentDoor = NULL;
 }
 
@@ -111,6 +112,11 @@ void APlayerCharacter::OnAction()
 	}
 }
 
+void APlayerCharacter::PauseIt()
+{
+
+}
+
 // Called to bind functionality to input
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -126,6 +132,9 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	//Bind Action
 	PlayerInputComponent->BindAction("Action", IE_Pressed, this, &APlayerCharacter::OnAction);
+
+	//Bind Pause
+	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &APlayerCharacter::PauseIt);
 
 	//Bind Movement
 	PlayerInputComponent->BindAxis("MoveVer", this, &APlayerCharacter::MoveVer);
