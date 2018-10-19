@@ -27,6 +27,9 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* OpenMesh;
 
+	UFUNCTION(BlueprintNativeEvent, Category = Win)
+	void Win();
+
 	UPROPERTY(EditAnywhere)
 	int Required;
 

@@ -49,8 +49,17 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	int HowMany;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere)
 	float TimeLimit;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool IsPaused;
+
+	UFUNCTION(BlueprintCallable)
+	void PauseIt();
+
+	UFUNCTION(BlueprintNativeEvent, Category = Lose)
+	void Lose();
 
 protected:
 

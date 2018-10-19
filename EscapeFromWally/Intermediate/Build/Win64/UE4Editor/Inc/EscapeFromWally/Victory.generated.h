@@ -17,6 +17,7 @@ struct FHitResult;
 #define ESCAPEFROMWALLY_Victory_generated_h
 
 #define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_RPC_WRAPPERS \
+	virtual void Win_Implementation(); \
  \
 	DECLARE_FUNCTION(execOnBeginOverlap) \
 	{ \
@@ -29,11 +30,20 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnBeginOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execWin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Win_Implementation(); \
 		P_NATIVE_END; \
 	}
 
 
 #define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Win_Implementation(); \
  \
 	DECLARE_FUNCTION(execOnBeginOverlap) \
 	{ \
@@ -47,9 +57,19 @@ struct FHitResult;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnBeginOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execWin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Win_Implementation(); \
+		P_NATIVE_END; \
 	}
 
 
+#define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_EVENT_PARMS
+#define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_CALLBACK_WRAPPERS
 #define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAVictory(); \
@@ -96,12 +116,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVictory); \
 	FORCEINLINE static uint32 __PPO__VictoryBox() { return STRUCT_OFFSET(AVictory, VictoryBox); }
 
 
-#define EscapeFromWally_Source_EscapeFromWally_Victory_h_9_PROLOG
+#define EscapeFromWally_Source_EscapeFromWally_Victory_h_9_PROLOG \
+	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_EVENT_PARMS
+
+
 #define EscapeFromWally_Source_EscapeFromWally_Victory_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_PRIVATE_PROPERTY_OFFSET \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_RPC_WRAPPERS \
+	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_CALLBACK_WRAPPERS \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_INCLASS \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -113,6 +137,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_PRIVATE_PROPERTY_OFFSET \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_CALLBACK_WRAPPERS \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_INCLASS_NO_PURE_DECLS \
 	EscapeFromWally_Source_EscapeFromWally_Victory_h_12_ENHANCED_CONSTRUCTORS \
 private: \
