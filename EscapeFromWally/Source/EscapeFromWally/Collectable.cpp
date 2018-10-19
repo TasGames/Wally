@@ -15,8 +15,6 @@ ACollectable::ACollectable()
 
 	//Create a mesh component 
 	CollectMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CollectMesh"));
-
-	V = CreateDefaultSubobject<AVictory>(TEXT("Victory"));
 }
 
 void ACollectable::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
