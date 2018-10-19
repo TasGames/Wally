@@ -12,6 +12,8 @@
 // Sets default values
 APlayerCharacter::APlayerCharacter()
 {
+	PrimaryActorTick.bCanEverTick = true;
+
 	//Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
@@ -47,8 +49,19 @@ APlayerCharacter::APlayerCharacter()
 
 	//Initialize variables
 	HowMany = 0;
+	TimeLimit = 100000.0f;
 	TorchOn = true;
 	CurrentDoor = NULL;
+}
+
+void APlayerCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	TimeLimit -= 1;
+
+	if (TimeLimit <= 0)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "GameOver");
 }
 
 void APlayerCharacter::OnOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ESCAPEFROMWALLY_EscapeFromWallyGameModeBase_generated_h
 
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_RPC_WRAPPERS
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_RPC_WRAPPERS
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEscapeFromWallyGameModeBase(); \
 	friend struct Z_Construct_UClass_AEscapeFromWallyGameModeBase_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AEscapeFromWallyGameModeBase)
 
 
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_INCLASS \
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAEscapeFromWallyGameModeBase(); \
 	friend struct Z_Construct_UClass_AEscapeFromWallyGameModeBase_Statics; \
@@ -33,9 +33,9 @@ public: \
 	DECLARE_SERIALIZER(AEscapeFromWallyGameModeBase)
 
 
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEscapeFromWallyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AEscapeFromWallyGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEscapeFromWallyGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEscapeFromWallyGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeFromWallyGameModeBase); \
@@ -46,9 +46,7 @@ private: \
 public:
 
 
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEscapeFromWallyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEscapeFromWallyGameModeBase(AEscapeFromWallyGameModeBase&&); \
@@ -56,29 +54,33 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEscapeFromWallyGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeFromWallyGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEscapeFromWallyGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEscapeFromWallyGameModeBase)
 
 
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_PROLOG
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PlayerHUDClass() { return STRUCT_OFFSET(AEscapeFromWallyGameModeBase, PlayerHUDClass); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AEscapeFromWallyGameModeBase, CurrentWidget); }
+
+
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_9_PROLOG
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_RPC_WRAPPERS \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_INCLASS \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_RPC_WRAPPERS \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_INCLASS \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_GENERATED_BODY \
+#define EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_INCLASS_NO_PURE_DECLS \
+	EscapeFromWally_Source_EscapeFromWally_EscapeFromWallyGameModeBase_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

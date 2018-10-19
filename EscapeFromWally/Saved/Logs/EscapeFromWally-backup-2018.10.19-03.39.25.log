@@ -1,0 +1,998 @@
+﻿Log file open, 10/19/18 00:59:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: EscapeFromWally
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.203283
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.103s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.18-23.59.54:646][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-23.59.54:646][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.18-23.59.54:659][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.18-23.59.54:660][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.18-23.59.54:660][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.18-23.59.54:662][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2018.10.18-23.59.54:662][  0]LogInit: User: ThomasSimon
+[2018.10.18-23.59.54:662][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.18-23.59.54:662][  0]LogInit: High frequency timer resolution =3.234379 MHz
+[2018.10.18-23.59.54:662][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.18-23.59.54:662][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.18-23.59.54:662][  0]LogMemory: Process Physical Memory: 100.55 MB used, 100.55 MB peak
+[2018.10.18-23.59.54:662][  0]LogMemory: Process Virtual Memory: 84.54 MB used, 84.54 MB peak
+[2018.10.18-23.59.54:662][  0]LogMemory: Physical Memory: 5359.82 MB used,  10963.91 MB free, 16323.73 MB total
+[2018.10.18-23.59.54:662][  0]LogMemory: Virtual Memory: 4625.40 MB used,  10963.91 MB free, 134217728.00 MB total
+[2018.10.18-23.59.54:835][  0]LogInit: Using OS detected language (en-GB).
+[2018.10.18-23.59.54:835][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.18-23.59.54:838][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.10.18-23.59.55:219][  0]LogStreaming: Display: Took  0.385s to InitEngineTextLocalization.
+[2018.10.18-23.59.55:220][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.18-23.59.55:295][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.18-23.59.55:295][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.18-23.59.55:635][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.18-23.59.55:635][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.18-23.59.55:708][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.10.18-23.59.55:708][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.10.18-23.59.55:710][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.18-23.59.55:710][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.18-23.59.55:710][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.18-23.59.55:718][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.18-23.59.55:718][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.18-23.59.55:718][  0]LogWindows: EnumDisplayDevices:
+[2018.10.18-23.59.55:718][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.18-23.59.55:719][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.18-23.59.55:719][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.10.18-23.59.55:719][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.18-23.59.55:719][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.18-23.59.55:719][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.10.18-23.59.55:719][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.10.18-23.59.55:719][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.10.18-23.59.55:719][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.10.18-23.59.55:749][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.18-23.59.55:779][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.18-23.59.55:834][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Intermediate/Shaders/WorkingDirectory/25476/).
+[2018.10.18-23.59.55:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/52ADF6954926D8C77FD29BB9EACB18D8/'.
+[2018.10.18-23.59.56:185][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.18-23.59.56:208][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.18-23.59.56:232][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.18-23.59.56:256][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.18-23.59.56:281][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.18-23.59.56:304][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.18-23.59.56:328][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.18-23.59.56:352][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.18-23.59.56:370][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-23.59.56:471][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.18-23.59.56:567][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-23.59.56:567][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-23.59.56:599][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-23.59.56:599][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-23.59.56:624][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.18-23.59.56:648][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.18-23.59.56:670][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.18-23.59.56:696][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.18-23.59.56:716][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.18-23.59.56:717][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.18-23.59.57:094][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.18-23.59.57:094][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.18-23.59.57:094][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.18-23.59.57:094][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.18-23.59.57:890][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.18-23.59.58:212][  0]LogDerivedDataCache: Loaded boot cache 0.32s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.18-23.59.58:213][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.18-23.59.58:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.18-23.59.58:213][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.18-23.59.58:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.18-23.59.58:213][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.18-23.59.58:228][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.18-23.59.58:244][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.18-23.59.58:244][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.18-23.59.58:244][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.18-23.59.58:264][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.18-23.59.58:269][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.18-23.59.58:272][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-23.59.58:553][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2018.10.18-23.59.59:011][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-23.59.59:354][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.18-23.59.59:402][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.18-23.59.59:403][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.18-23.59.59:403][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.18-23.59.59:403][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.18-23.59.59:452][  0]LogNetVersion: EscapeFromWally 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2411787198)
+[2018.10.19-00.00.00:211][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.115383 seconds
+[2018.10.19-00.00.00:220][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.19-00.00.00:220][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.19-00.00.00:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.19-00.00.04:985][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.19-00.00.05:012][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.19-00.00.05:469][  0]SourceControl: Source control is disabled
+[2018.10.19-00.00.05:469][  0]SourceControl: Source control is disabled
+[2018.10.19-00.00.05:515][  0]SourceControl: Source control is disabled
+[2018.10.19-00.00.05:531][  0]SourceControl: Source control is disabled
+[2018.10.19-00.00.06:239][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.19-00.00.06:391][  0]LogOcInput: OculusInput pre-init called
+[2018.10.19-00.00.06:531][  0]LogEngine: Initializing Engine...
+[2018.10.19-00.00.06:533][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.19-00.00.06:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.19-00.00.06:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.19-00.00.06:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.19-00.00.06:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.19-00.00.06:779][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.19-00.00.06:824][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.19-00.00.06:852][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-00.00.06:871][  0]LogInit: FAudioDevice initialized.
+[2018.10.19-00.00.06:871][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.19-00.00.06:938][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.19-00.00.06:939][  0]LogInit: Texture streaming: Enabled
+[2018.10.19-00.00.07:003][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.19-00.00.07:034][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.19-00.00.07:116][  0]LogInit: Transaction tracking system initialized
+[2018.10.19-00.00.07:214][  0]BlueprintLog: New page: Editor Load
+[2018.10.19-00.00.07:639][  0]LocalizationService: Localization service is disabled
+[2018.10.19-00.00.08:242][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/' took 0.02s
+[2018.10.19-00.00.08:242][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.19-00.00.08:242][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.19-00.00.08:242][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.19-00.00.08:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.19-00.00.08:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.19-00.00.08:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.19-00.00.08:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.19-00.00.08:917][  0]SourceControl: Source control is disabled
+[2018.10.19-00.00.08:918][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.19-00.00.08:919][  0]LightingResults: New page: Lighting Build
+[2018.10.19-00.00.08:926][  0]MapCheck: New page: Map Check
+[2018.10.19-00.00.08:926][  0]LightingResults: New page: Lighting Build
+[2018.10.19-00.00.09:068][  0]LogStaticMesh: Building static mesh Wally...
+[2018.10.19-00.00.09:086][  0]LogTexture: Display: Building textures: Wally (AutoDXT, 1024X1024)
+[2018.10.19-00.00.09:086][  0]LogStaticMesh: Built static mesh [0.02s] /Game/MyContent/Mesh/Wally.Wally
+[2018.10.19-00.00.09:180][  0]LogMaterial: Display: Missing cached shader map for material Wally_Mat, compiling. 
+[2018.10.19-00.00.09:242][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.19-00.00.09:242][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.19-00.00.09:242][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.19-00.00.09:242][  0]LogAIModule: Creating AISystem for world Main
+[2018.10.19-00.00.09:262][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-00.00.11:753][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-00.00.11:802][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.726ms to complete.
+[2018.10.19-00.00.11:802][  0]LogFileHelpers: Loading map 'Main' took 2.885
+[2018.10.19-00.00.12:010][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.00.12:018][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.00.12:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.00.12:033][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.00.12:072][  0]LogCollectionManager: Loaded 0 collections in 0.001162 seconds
+[2018.10.19-00.00.12:178][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Collections/' took 0.01s
+[2018.10.19-00.00.12:178][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2018.10.19-00.00.12:178][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/Collections/' took 0.01s
+[2018.10.19-00.00.12:178][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.19-00.00.12:190][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2578 classes and 607 folders.
+[2018.10.19-00.00.12:198][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.19-00.00.13:048][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.19-00.00.13:143][  0]LogSlate: Took 0.045997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.19-00.00.13:151][  0]LogSlate: Took 0.002395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.19-00.00.13:157][  0]LogSlate: Took 0.002554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.19-00.00.13:236][  0]LogRenderer: Reallocating scene render targets to support 1256x600 Format 10 NumSamples 1 (Frame:1).
+[2018.10.19-00.00.19:645][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.19-00.00.19:645][  0]LogLoad: (Engine Initialization) Total time: 26.83 seconds
+[2018.10.19-00.00.19:645][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.19-00.00.19:679][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.19-00.00.19:709][  0]LogSlate: Took 0.005355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.19-00.00.19:734][  1]LogAssetRegistry: Asset discovery search completed in 21.2035 seconds
+[2018.10.19-00.00.19:736][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.19-00.00.19:736][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.10.19-00.00.20:675][ 89]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.19-00.00.24:663][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.00.24:740][570]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-00.00.24:752][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-00.00.24:766][570]PIE: New page: PIE session: Main (19 Oct 2018 02:00:24)
+[2018.10.19-00.00.24:766][570]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.19-00.00.24:790][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022943s)
+[2018.10.19-00.00.24:790][570]LogAIModule: Creating AISystem for world Main
+[2018.10.19-00.00.24:790][570]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2018.10.19-00.00.24:790][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023701s)
+[2018.10.19-00.00.24:815][570]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-00.00.24:918][570]LogInit: FAudioDevice initialized.
+[2018.10.19-00.00.24:997][570]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.19-00.00.25:001][570]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.19-01.00.25
+[2018.10.19-00.00.25:004][570]LogWorld: Bringing up level for play took: 0.004602
+[2018.10.19-00.00.25:024][570]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.19-00.00.25:028][570]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.56
+[2018.10.19-00.01.17:302][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.01.17:338][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-00.01.17:360][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.01.17:406][238]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.19-00.01.21:369][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.01.21:465][683]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Victory.Bp_Victory
+[2018.10.19-00.01.21:955][683]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.10.19-00.01.22:680][683]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Collectable.Bp_Collectable
+[2018.10.19-00.02.07:022][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.02.09:382][183]LogSlate: Took 0.007734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.19-00.02.51:041][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.03.13:137][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.03.25:393][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.03.44:851][377]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (LockedMesh)
+[2018.10.19-00.03.56:176][693]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (LockedMesh)
+[2018.10.19-00.04.10:976][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.04.27:358][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.04.27:469][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.19-00.04.27:694][341]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main7C93BD754B8CD763C24A28B5710A6CED.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.19-00.05.16:225][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.05.16:316][130]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-00.05.16:328][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-00.05.16:328][130]PIE: New page: PIE session: Main (19 Oct 2018 02:05:16)
+[2018.10.19-00.05.16:329][130]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.19-00.05.16:351][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022455s)
+[2018.10.19-00.05.16:352][130]LogAIModule: Creating AISystem for world Main
+[2018.10.19-00.05.16:352][130]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.10.19-00.05.16:352][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023329s)
+[2018.10.19-00.05.16:387][130]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-00.05.16:395][130]LogInit: FAudioDevice initialized.
+[2018.10.19-00.05.16:430][130]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.19-00.05.16:433][130]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.19-01.05.16
+[2018.10.19-00.05.16:433][130]LogWorld: Bringing up level for play took: 0.002391
+[2018.10.19-00.05.16:446][130]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.022
+[2018.10.19-00.05.29:446][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.05.29:480][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-00.05.29:510][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.05.29:546][683]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.19-00.05.39:986][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.05.47:735][847]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.19-00.06.01:031][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.09.20:494][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.09.52:998][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.10.13:108][693]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-00.10.14:093][811]Cmd: POLY SELECT MATCHING BRUSH
+[2018.10.19-00.10.23:942][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-00.10.24:719][ 70]Cmd: POLY SELECT MATCHING BRUSH
+[2018.10.19-00.10.26:051][223]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-00.10.41:837][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.10.41:895][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-00.10.41:911][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-00.10.41:911][ 59]PIE: New page: PIE session: Main (19 Oct 2018 02:10:41)
+[2018.10.19-00.10.41:911][ 59]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.19-00.10.41:934][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023114s)
+[2018.10.19-00.10.41:935][ 59]LogAIModule: Creating AISystem for world Main
+[2018.10.19-00.10.41:935][ 59]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.10.19-00.10.41:935][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.024121s)
+[2018.10.19-00.10.41:973][ 59]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-00.10.41:981][ 59]LogInit: FAudioDevice initialized.
+[2018.10.19-00.10.42:010][ 59]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.19-00.10.42:012][ 59]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.19-01.10.42
+[2018.10.19-00.10.42:012][ 59]LogWorld: Bringing up level for play took: 0.002245
+[2018.10.19-00.10.42:024][ 59]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.443
+[2018.10.19-00.10.55:515][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.10.55:551][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-00.10.55:583][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.10.55:614][680]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.19-00.11.07:021][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.11.09:791][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.19-00.11.10:043][324]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/MainB39BB64D40987B326E3DDABB7DBCE1FB.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.19-00.11.27:771][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.11.27:854][454]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-00.11.27:869][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-00.11.27:869][454]PIE: New page: PIE session: Main (19 Oct 2018 02:11:27)
+[2018.10.19-00.11.27:869][454]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.19-00.11.27:892][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022880s)
+[2018.10.19-00.11.27:893][454]LogAIModule: Creating AISystem for world Main
+[2018.10.19-00.11.27:893][454]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2018.10.19-00.11.27:893][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.023673s)
+[2018.10.19-00.11.27:936][454]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-00.11.27:943][454]LogInit: FAudioDevice initialized.
+[2018.10.19-00.11.27:979][454]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.19-00.11.27:981][454]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.19-01.11.27
+[2018.10.19-00.11.27:982][454]LogWorld: Bringing up level for play took: 0.002147
+[2018.10.19-00.11.27:994][454]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.473
+[2018.10.19-00.11.55:352][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.11.55:389][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-00.11.55:421][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.11.55:453][739]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.19-00.12.14:443][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.12.21:297][830]LogAssetEditorManager: Opening Asset editor for Class /Script/EscapeFromWally.PlayerCharacter
+[2018.10.19-00.12.21:969][830]LogVSAccessor: Warning: Couldn't goto line number '1' in 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Source/EscapeFromWally/PlayerCharacter.h'
+[2018.10.19-00.12.22:146][830]LogVSAccessor: Warning: Couldn't goto line number '1' in 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Source/EscapeFromWally/PlayerCharacter.cpp'
+[2018.10.19-00.12.22:551][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.12.22:760][900]LogAssetEditorManager: Opening Asset editor for Class /Script/EscapeFromWally.Victory
+[2018.10.19-00.12.22:762][900]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:767][900]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:773][901]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:781][902]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:790][903]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:798][904]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:806][905]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:814][906]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:822][907]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:830][908]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:840][909]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:848][910]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:856][911]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:864][912]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:873][913]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:881][914]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:889][915]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:898][916]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:906][917]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:914][918]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:923][919]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:931][920]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:939][921]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:948][922]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:956][923]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:965][924]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:973][925]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:981][926]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:990][927]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.22:998][928]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:006][929]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:015][930]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:024][931]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:032][932]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:040][933]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:048][934]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:057][935]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:065][936]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:073][937]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:082][938]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:090][939]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:098][940]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:108][941]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:115][942]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:123][943]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:132][944]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:140][945]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:149][946]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:157][947]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:165][948]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:173][949]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:182][950]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:189][951]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:198][952]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:206][953]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:214][954]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:223][955]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:231][956]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:241][957]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:248][958]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:256][959]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:265][960]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:273][961]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:281][962]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:290][963]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:298][964]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:307][965]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:315][966]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:323][967]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:332][968]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:340][969]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:349][970]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:357][971]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:366][972]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:374][973]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:382][974]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:390][975]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:399][976]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:407][977]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:416][978]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:424][979]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:433][980]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:440][981]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:449][982]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:457][983]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:466][984]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:473][985]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:481][986]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:489][987]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:499][988]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:506][989]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:515][990]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:523][991]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:532][992]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:540][993]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:548][994]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:556][995]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:565][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:573][997]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:582][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:590][999]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:598][  0]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:606][  1]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:616][  2]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:623][  3]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:632][  4]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:640][  5]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:649][  6]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:657][  7]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:666][  8]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:673][  9]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:682][ 10]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:690][ 11]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:699][ 12]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:707][ 13]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:715][ 14]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:723][ 15]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:733][ 16]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:740][ 17]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:748][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.12.23:750][ 18]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:757][ 19]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:766][ 20]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:774][ 21]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:783][ 22]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:790][ 23]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:799][ 24]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:807][ 25]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:816][ 26]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:824][ 27]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:833][ 28]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:841][ 29]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:849][ 30]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:856][ 31]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:866][ 32]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:873][ 33]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:882][ 34]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:890][ 35]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:899][ 36]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:906][ 37]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:915][ 38]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:923][ 39]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:932][ 40]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:940][ 41]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:963][ 42]LogAssetEditorManager: Opening Asset editor for Class /Script/EscapeFromWally.Door
+[2018.10.19-00.12.23:966][ 42]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:970][ 42]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:976][ 43]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:985][ 44]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.23:993][ 45]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:002][ 46]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:010][ 47]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:018][ 48]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:026][ 49]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:035][ 50]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:043][ 51]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:052][ 52]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:060][ 53]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:069][ 54]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:077][ 55]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:085][ 56]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:093][ 57]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:103][ 58]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:111][ 59]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:119][ 60]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:129][ 61]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:136][ 62]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:144][ 63]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:153][ 64]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:161][ 65]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:169][ 66]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:178][ 67]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:186][ 68]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:194][ 69]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:203][ 70]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:211][ 71]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:219][ 72]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:227][ 73]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:235][ 74]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:244][ 75]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:252][ 76]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:260][ 77]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:269][ 78]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:277][ 79]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:286][ 80]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:294][ 81]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:302][ 82]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:311][ 83]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:321][ 84]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:328][ 85]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:337][ 86]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:344][ 87]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:353][ 88]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:361][ 89]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:370][ 90]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:378][ 91]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:386][ 92]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:395][ 93]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:404][ 94]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:411][ 95]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:420][ 96]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:428][ 97]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:436][ 98]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:445][ 99]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:452][100]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:461][101]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:469][102]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:477][103]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:486][104]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:494][105]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:503][106]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:511][107]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:519][108]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:528][109]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:537][110]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:545][111]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:553][112]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:562][113]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:570][114]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:578][115]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:587][116]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:595][117]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:604][118]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:611][119]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:620][120]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:628][121]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:637][122]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:645][123]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:653][124]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:662][125]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:670][126]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:678][127]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:687][128]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:695][129]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:703][130]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:712][131]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:719][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.12.24:721][132]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:728][133]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:737][134]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:745][135]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:753][136]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:762][137]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:770][138]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:779][139]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:786][140]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:794][141]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:803][142]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:811][143]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:819][144]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:828][145]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:836][146]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:844][147]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:853][148]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:861][149]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:870][150]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:878][151]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:887][152]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:895][153]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:904][154]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:912][155]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:937][156]LogAssetEditorManager: Opening Asset editor for Class /Script/EscapeFromWally.Collectable
+[2018.10.19-00.12.24:939][156]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:943][156]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:950][157]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:958][158]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:967][159]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:974][160]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:983][161]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.24:991][162]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:000][163]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:008][164]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:017][165]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:025][166]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:033][167]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:041][168]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:050][169]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:058][170]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:068][171]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:075][172]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:084][173]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:091][174]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:101][175]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:108][176]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:117][177]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:125][178]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:135][179]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:142][180]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:151][181]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:158][182]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:167][183]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:174][184]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:183][185]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:191][186]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:199][187]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:208][188]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:217][189]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:224][190]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:233][191]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:241][192]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:250][193]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:258][194]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:267][195]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:274][196]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:284][197]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:291][198]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:301][199]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:308][200]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:317][201]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:325][202]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:334][203]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:341][204]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:351][205]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:358][206]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:368][207]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:375][208]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:384][209]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:392][210]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:401][211]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:408][212]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:418][213]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:425][214]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:434][215]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:442][216]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:450][217]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:458][218]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:470][219]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:476][220]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:485][221]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:492][222]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:503][223]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:510][224]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:518][225]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:526][226]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:535][227]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:543][228]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:551][229]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:559][230]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:568][231]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:576][232]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:585][233]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:592][234]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:602][235]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:609][236]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:618][237]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:626][238]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:635][239]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:643][240]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:651][241]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:659][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:669][243]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:677][244]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:685][245]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:694][246]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:702][247]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:709][248]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:718][249]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:726][250]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:735][251]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:743][252]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:751][253]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:759][254]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:769][255]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:777][256]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:785][257]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:793][258]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:802][259]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:810][260]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:819][261]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:827][262]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:836][263]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:843][264]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:852][265]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:860][266]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:869][267]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:877][268]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:886][269]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:894][270]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:902][271]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:910][272]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:919][273]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:927][274]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:937][275]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:943][276]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:951][277]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:959][278]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:969][279]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:976][280]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:985][281]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.25:993][282]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:001][283]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:010][284]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:018][285]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:026][286]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:036][287]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:043][288]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:052][289]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:060][290]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:068][291]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:076][292]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:085][293]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:093][294]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:102][295]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:110][296]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:118][297]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:127][298]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:135][299]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:144][300]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:152][301]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:160][302]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:169][303]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:177][304]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:186][305]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:194][306]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:203][307]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:211][308]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:219][309]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:227][310]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:236][311]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:244][312]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:253][313]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:261][314]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:269][315]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:278][316]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:286][317]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:294][318]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:303][319]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:310][320]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:319][321]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:327][322]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:404][323]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.26:686][324]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.27:022][325]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.27:355][326]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.10.19-00.12.28:194][327]LogVSAccessor: Warning: Couldn't goto line number '1' in 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Source/EscapeFromWally/Victory.h'
+[2018.10.19-00.13.38:096][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.13.38:220][533]Candidate modules for hot reload:
+[2018.10.19-00.13.38:220][533]  EscapeFromWally
+[2018.10.19-00.13.38:220][533]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,4992 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.19-00.13.38:227][533]Warning: Starting HotReload took  0.0s.
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: New page: Compilation - 19 Oct 2018 02:13:55
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Creating makefile for hot reloading EscapeFromWallyEditor (game project files are newer)
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.19-00.13.55:353][864]CompilerResultsLog:   [1/3] Collectable.cpp
+[2018.10.19-00.13.55:353][864]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-4992.lib
+[2018.10.19-00.13.55:353][864]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4992.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4992.exp
+[2018.10.19-00.13.55:353][864]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-4992.dll
+[2018.10.19-00.13.55:353][864]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4992.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-4992.suppressed.exp
+[2018.10.19-00.13.55:353][864]CompilerResultsLog: Total build time: 16.72 seconds (Parallel executor: 11.86 seconds)
+[2018.10.19-00.13.55:353][864]LogMainFrame: MainFrame: Module compiling took 17.149 seconds
+[2018.10.19-00.13.55:404][864]LogHotReload: Re-instancing Collectable after hot-reload.
+[2018.10.19-00.13.55:653][864]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2018.10.19-00.13.55:656][864]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.10.19-00.13.56:005][864]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2578 classes and 607 folders.
+[2018.10.19-00.13.56:007][864]Display: HotReload took 17.8s.
+[2018.10.19-00.14.15:713][748]LogProperty: Warning: Illegal TEXT reference to a private object in external package (Bp_Victory_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Victory_2) from referencer (Bp_Collectable_C /Game/MyContent/Blueprints/Bp_Collectable.Default__Bp_Collectable_C).  Import failed...
+[2018.10.19-00.14.15:714][748]LogProperty: Warning: Illegal TEXT reference to a private object in external package (Bp_Victory_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Victory_2) from referencer (Bp_Collectable_C /Engine/Transient.World_1:PersistentLevel.Bp_Collectable_C_0).  Import failed...
+[2018.10.19-00.14.15:714][748]LogProperty: Warning: Illegal TEXT reference to a private object in external package (Bp_Victory_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Victory_2) from referencer (Bp_Collectable_C /Engine/Transient.World_4:PersistentLevel.Bp_Collectable_C_0).  Import failed...
+[2018.10.19-00.14.15:714][748]LogProperty: Warning: Illegal TEXT reference to a private object in external package (Bp_Victory_C /Game/MyContent/Maps/Main.Main:PersistentLevel.Bp_Victory_2) from referencer (Bp_Collectable_C /Engine/Transient.World_1:PersistentLevel.Bp_Collectable_C_1).  Import failed...
+[2018.10.19-00.14.30:005][447]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Collectable.Bp_Collectable
+[2018.10.19-00.14.30:262][447]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.10.19-00.14.33:547][833]LogSlate: Window 'CompilerResults' being destroyed
+[2018.10.19-00.14.33:551][833]LogSlate: Window 'CompilerResults' being destroyed
+[2018.10.19-00.14.34:760][978]BlueprintLog: New page: Compile Bp_Collectable
+[2018.10.19-00.14.36:009][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_Collectable" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Collectable.uasset" SILENT=true
+[2018.10.19-00.14.36:027][ 95]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Bp_Collectable1E950C6245678381EADDEDBE217B3D53.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Blueprints/Bp_Collectable.uasset'
+[2018.10.19-00.14.40:301][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.19-00.14.40:522][598]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Saved/Main29C3F3944EAAEF87471C18B243611D72.tmp' to 'A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/Content/MyContent/Maps/Main.umap'
+[2018.10.19-00.15.28:733][ 75]Candidate modules for hot reload:
+[2018.10.19-00.15.28:733][ 75]  EscapeFromWally
+[2018.10.19-00.15.28:733][ 75]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,7401 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.19-00.15.28:739][ 75]Warning: Starting HotReload took  0.0s.
+[2018.10.19-00.15.46:409][161]CompilerResultsLog: New page: Compilation - 19 Oct 2018 02:15:46
+[2018.10.19-00.15.46:409][161]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.19-00.15.46:409][161]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.19-00.15.46:409][161]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.19-00.15.46:409][161]CompilerResultsLog:   [1/3] Collectable.cpp
+[2018.10.19-00.15.46:409][161]CompilerResultsLog:   [2/3] UE4Editor-EscapeFromWally-7401.lib
+[2018.10.19-00.15.46:409][161]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-7401.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-7401.exp
+[2018.10.19-00.15.46:409][161]CompilerResultsLog:   [3/3] UE4Editor-EscapeFromWally-7401.dll
+[2018.10.19-00.15.46:409][161]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-7401.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-7401.suppressed.exp
+[2018.10.19-00.15.46:410][161]CompilerResultsLog: Total build time: 17.38 seconds (Parallel executor: 15.67 seconds)
+[2018.10.19-00.15.46:410][161]LogMainFrame: MainFrame: Module compiling took 17.692 seconds
+[2018.10.19-00.15.46:464][161]LogHotReload: Re-instancing Collectable after hot-reload.
+[2018.10.19-00.15.46:734][161]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2018.10.19-00.15.46:738][161]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.10.19-00.15.47:054][161]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2578 classes and 607 folders.
+[2018.10.19-00.15.47:054][161]Display: HotReload took 18.3s.
+[2018.10.19-00.15.54:320][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-00.15.54:335][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-00.15.54:335][ 26]PIE: New page: PIE session: Main (19 Oct 2018 02:15:54)
+[2018.10.19-00.15.54:335][ 26]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2018.10.19-00.15.54:360][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026408s)
+[2018.10.19-00.15.54:361][ 26]LogAIModule: Creating AISystem for world Main
+[2018.10.19-00.15.54:361][ 26]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2018.10.19-00.15.54:361][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.027172s)
+[2018.10.19-00.15.54:424][ 26]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-00.15.54:433][ 26]LogInit: FAudioDevice initialized.
+[2018.10.19-00.15.54:462][ 26]LogLoad: Game class is 'Bp_efwGameMode_C'
+[2018.10.19-00.15.54:464][ 26]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.10.19-01.15.54
+[2018.10.19-00.15.54:464][ 26]LogWorld: Bringing up level for play took: 0.002184
+[2018.10.19-00.15.54:477][ 26]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.01
+[2018.10.19-00.16.02:804][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.16.02:839][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-00.16.02:875][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-00.16.02:911][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.19-00.16.13:790][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-00.16.19:544][984]LogSlate: Took 0.006894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.19-00.16.40:948][480]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -invalidatemakefilesonly
+[2018.10.19-00.16.41:559][480]Invalidating makefiles only in this run.
+[2018.10.19-00.16.41:683][480]Candidate modules for hot reload:
+[2018.10.19-00.16.41:683][480]  EscapeFromWally
+[2018.10.19-00.16.41:683][480]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeFromWally,9819 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/Wally/EscapeFromWally/EscapeFromWally.uproject" ]
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: New page: Compilation - 19 Oct 2018 02:16:56
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Creating makefile for hot reloading EscapeFromWallyEditor (no existing makefile)
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Parsing headers for EscapeFromWallyEditor
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\EscapeFromWally.uproject" "A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\EscapeFromWallyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Reflection code generated for EscapeFromWallyEditor in 8.8588489 seconds
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:   [1/5] WallyHUD.cpp
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:   [2/5] EscapeFromWally.init.gen.cpp
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:   [3/5] WallyHUD.gen.cpp
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:   [4/5] UE4Editor-EscapeFromWally-9819.lib
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9819.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9819.exp
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:   [5/5] UE4Editor-EscapeFromWally-9819.dll
+[2018.10.19-00.16.56:915][480]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9819.suppressed.lib and object A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-9819.suppressed.exp
+[2018.10.19-00.16.56:915][480]CompilerResultsLog: Total build time: 14.97 seconds (Parallel executor: 1.88 seconds)
+[2018.10.19-00.16.56:915][480]LogMainFrame: MainFrame: Module compiling took 15.245 seconds
+[2018.10.19-00.16.56:972][480]LogClass: Could not find existing class WallyHUD in package /Script/EscapeFromWally for HotReload, assuming new class
+[2018.10.19-00.16.56:980][480]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2018.10.19-00.16.56:985][480]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.10.19-00.16.57:298][480]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2579 classes and 607 folders.
+[2018.10.19-00.16.57:298][480]Display: HotReload took 15.6s.
+[2018.10.19-00.16.57:299][480]Warning: HotReload operation took 15.6s.
+[2018.10.19-00.16.57:559][480]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.10.19-00.16.57:565][480]LogHotReload: New module detected: UE4Editor-EscapeFromWally-9819.dll
+[2018.10.19-00.16.57:596][481]LogHotReload: Starting Hot-Reload from IDE
+[2018.10.19-00.16.57:686][481]LogContentBrowser: Native class hierarchy updated for 'EscapeFromWally' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2018.10.19-00.16.57:690][481]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.19-00.16.57:987][481]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2579 classes and 607 folders.
+[2018.10.19-00.16.57:999][481]Display: HotReload took  0.4s.
