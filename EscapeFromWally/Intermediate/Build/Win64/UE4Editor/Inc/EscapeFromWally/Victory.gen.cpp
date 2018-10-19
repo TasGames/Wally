@@ -21,14 +21,21 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ESCAPEFROMWALLY_API UFunction* Z_Construct_UFunction_AVictory_Win();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AVictory_Win = FName(TEXT("Win"));
+	void AVictory::Win()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AVictory_Win),NULL);
+	}
 	void AVictory::StaticRegisterNativesAVictory()
 	{
 		UClass* Class = AVictory::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnBeginOverlap", &AVictory::execOnBeginOverlap },
+			{ "Win", &AVictory::execWin },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -113,6 +120,29 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AVictory_Win_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVictory_Win_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Win" },
+		{ "ModuleRelativePath", "Victory.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AVictory_Win_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVictory, "Win", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020C00, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVictory_Win_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AVictory_Win_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AVictory_Win()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVictory_Win_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AVictory_NoRegister()
 	{
 		return AVictory::StaticClass();
@@ -150,6 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AVictory_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AVictory_OnBeginOverlap, "OnBeginOverlap" }, // 4150599534
+		{ &Z_Construct_UFunction_AVictory_Win, "Win" }, // 23029199
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVictory_Statics::Class_MetaDataParams[] = {
@@ -217,7 +248,7 @@ void EmptyLinkFunctionForGeneratedCodeVictory() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVictory, 4175170324);
+	IMPLEMENT_CLASS(AVictory, 3504785271);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AVictory(Z_Construct_UClass_AVictory, &AVictory::StaticClass, TEXT("/Script/EscapeFromWally"), TEXT("AVictory"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AVictory);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

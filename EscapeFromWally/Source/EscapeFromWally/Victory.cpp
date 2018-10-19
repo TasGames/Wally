@@ -32,6 +32,10 @@ void AVictory::Tick(float DeltaTime)
 
 }
 
+void AVictory::Win_Implementation()
+{
+}
+
 void AVictory::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	if (OtherActor != this)
@@ -41,8 +45,7 @@ void AVictory::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * Oth
 		{
 			if (P->HowMany == Required)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Open");
-				//GetWorld()->GetFirstPlayerController()->ConsoleCommand("quit");
+				Win();
 			}
 			else
 				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Locked");

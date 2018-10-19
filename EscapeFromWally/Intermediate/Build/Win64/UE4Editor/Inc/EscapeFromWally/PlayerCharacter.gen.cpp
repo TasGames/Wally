@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	ESCAPEFROMWALLY_API UClass* Z_Construct_UClass_APlayerCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_EscapeFromWally();
+	ESCAPEFROMWALLY_API UFunction* Z_Construct_UFunction_APlayerCharacter_Lose();
 	ESCAPEFROMWALLY_API UFunction* Z_Construct_UFunction_APlayerCharacter_OnOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -28,15 +29,44 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_APlayerCharacter_Lose = FName(TEXT("Lose"));
+	void APlayerCharacter::Lose()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APlayerCharacter_Lose),NULL);
+	}
 	void APlayerCharacter::StaticRegisterNativesAPlayerCharacter()
 	{
 		UClass* Class = APlayerCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Lose", &APlayerCharacter::execLose },
 			{ "OnOverlapBegin", &APlayerCharacter::execOnOverlapBegin },
 			{ "OnOverlapEnd", &APlayerCharacter::execOnOverlapEnd },
 			{ "PauseIt", &APlayerCharacter::execPauseIt },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_Lose_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_Lose_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Lose" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_Lose_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, "Lose", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020C00, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_Lose_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_Lose_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_Lose()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_Lose_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_APlayerCharacter_OnOverlapBegin_Statics
 	{
@@ -252,6 +282,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_EscapeFromWally,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayerCharacter_Lose, "Lose" }, // 3497675116
 		{ &Z_Construct_UFunction_APlayerCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 3759308438
 		{ &Z_Construct_UFunction_APlayerCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 2854720018
 		{ &Z_Construct_UFunction_APlayerCharacter_PauseIt, "PauseIt" }, // 994689865
@@ -280,7 +311,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{ "ModuleRelativePath", "PlayerCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeLimit = { UE4CodeGen_Private::EPropertyClass::Float, "TimeLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020005, 1, nullptr, STRUCT_OFFSET(APlayerCharacter, TimeLimit), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeLimit_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeLimit = { UE4CodeGen_Private::EPropertyClass::Float, "TimeLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayerCharacter, TimeLimit), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeLimit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HowMany_MetaData[] = {
 		{ "Category", "PlayerCharacter" },
@@ -357,7 +388,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 3716806136);
+	IMPLEMENT_CLASS(APlayerCharacter, 2511267078);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCharacter(Z_Construct_UClass_APlayerCharacter, &APlayerCharacter::StaticClass, TEXT("/Script/EscapeFromWally"), TEXT("APlayerCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

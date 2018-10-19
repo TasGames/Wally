@@ -17,6 +17,15 @@ struct FHitResult;
 #define ESCAPEFROMWALLY_PlayerCharacter_generated_h
 
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_RPC_WRAPPERS \
+	virtual void Lose_Implementation(); \
+ \
+	DECLARE_FUNCTION(execLose) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Lose_Implementation(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPauseIt) \
 	{ \
@@ -54,6 +63,15 @@ struct FHitResult;
 
 
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Lose_Implementation(); \
+ \
+	DECLARE_FUNCTION(execLose) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Lose_Implementation(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPauseIt) \
 	{ \
@@ -90,6 +108,8 @@ struct FHitResult;
 	}
 
 
+#define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_EVENT_PARMS
+#define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_CALLBACK_WRAPPERS
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
@@ -139,12 +159,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	FORCEINLINE static uint32 __PPO__SpotLight() { return STRUCT_OFFSET(APlayerCharacter, SpotLight); }
 
 
-#define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_9_PROLOG
+#define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_9_PROLOG \
+	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_EVENT_PARMS
+
+
 #define EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_RPC_WRAPPERS \
+	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_CALLBACK_WRAPPERS \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_INCLASS \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -156,6 +180,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_CALLBACK_WRAPPERS \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	EscapeFromWally_Source_EscapeFromWally_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \

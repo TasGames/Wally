@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-EscapeFromWally-8071.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\EscapeFromWallyEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Collectable.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Door.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\EscapeFromWally.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\EscapeFromWallyGameModeBase.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\PlayerCharacter.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Victory.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\WallyHUD.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Collectable.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Door.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\EscapeFromWally.init.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\EscapeFromWallyGameModeBase.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\PlayerCharacter.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\Victory.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\WallyHUD.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\PCLaunch.rc.res"
+/OUT:"A:\Projects\Unreal Engine Projects\Wally\EscapeFromWally\Intermediate\Build\Win64\UE4Editor\Development\EscapeFromWally\UE4Editor-EscapeFromWally-8071.lib"

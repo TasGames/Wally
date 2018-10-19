@@ -49,7 +49,7 @@ APlayerCharacter::APlayerCharacter()
 
 	//Initialize variables
 	HowMany = 0;
-	TimeLimit = 30000.0f;
+	TimeLimit = 0.0f;
 	TorchOn = true;
 	IsPaused = false;
 	CurrentDoor = NULL;
@@ -62,7 +62,7 @@ void APlayerCharacter::Tick(float DeltaTime)
 	TimeLimit -= 1;
 
 	if (TimeLimit <= 0)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "GameOver");
+		Lose();
 }
 
 void APlayerCharacter::OnOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -114,7 +114,10 @@ void APlayerCharacter::OnAction()
 
 void APlayerCharacter::PauseIt()
 {
+}
 
+void APlayerCharacter::Lose_Implementation()
+{
 }
 
 // Called to bind functionality to input
