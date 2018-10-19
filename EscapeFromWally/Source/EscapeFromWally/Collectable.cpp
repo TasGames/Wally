@@ -2,6 +2,7 @@
 
 #include "Collectable.h"
 #include "PlayerCharacter.h"
+#include "Victory.h"
 
 // Sets default values
 ACollectable::ACollectable()
@@ -20,11 +21,20 @@ void ACollectable::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor *
 {
 	if (OtherActor != this)
 	{
-		APlayerCharacter *p = Cast<APlayerCharacter>(OtherActor);
-		if (p != NULL)
+		APlayerCharacter *P = Cast<APlayerCharacter>(OtherActor);
+		if (P != NULL)
 		{
 			Destroy();	
-			p->HowMany += 1;
+			P->HowMany += 1;
+
+			if (V != NULL)
+			{
+				if (V->Required == P->HowMany)
+				{
+					V->LockedMesh->SetVisibility(false);
+					V->OpenMesh->SetVisibility(true);
+				}
+			}
 		}
 	}
 }

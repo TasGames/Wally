@@ -19,7 +19,10 @@ class ESCAPEFROMWALLY_API ACollectable : public AActor
 	//Collectable Mesh
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* CollectMesh;
-	
+
+	UPROPERTY(EditAnywhere)
+	class AVictory* V;
+
 public:	
 	//Sets default values for this actor's properties
 	ACollectable();
